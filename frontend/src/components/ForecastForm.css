@@ -1,0 +1,170 @@
+/* Container & Form */
+.forecast-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 2rem auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.forecast-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 1.5rem;
+}
+
+.forecast-form input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.forecast-form input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.forecast-form button {
+  width: 100%;
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.75rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.forecast-form button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* Loading & Error */
+.loading-text {
+  text-align: center;
+  color: #2563eb;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.error-text {
+  text-align: center;
+  color: #dc2626;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+/* Chart container */
+.chart-wrapper {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 2rem;
+}
+
+/* Pros & Cons cards */
+.pros-cons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.pros-cons-card {
+  background-color: #f9fafb;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pros-cons-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pros-cons-card h3 {
+  color: #1e3a8a;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.pros-cons-card .pros-title {
+  color: #15803d;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.pros-cons-card .cons-title {
+  color: #b91c1c;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.pros-cons-card ul {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+  max-height: 150px;
+  overflow-y: auto;
+  font-size: 0.95rem;
+}
+
+/* Scrollbar for pros/cons */
+.pros-cons-card ul::-webkit-scrollbar {
+  width: 6px;
+}
+.pros-cons-card ul::-webkit-scrollbar-thumb {
+  background-color: rgba(107, 114, 128, 0.5);
+  border-radius: 3px;
+}
+.pros-cons-card ul::-webkit-scrollbar-track {
+  background: transparent;
+}
+.pros-cons-card {
+  background-color: #fefefe;
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pros-cons-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.pros-cons-card h3 {
+  color: #1e3a8a;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.pros-title {
+  color: #15803d;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.cons-title {
+  color: #b91c1c;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.pros-cons-card ul {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}

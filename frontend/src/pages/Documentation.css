@@ -1,0 +1,166 @@
+.doc-container {
+  margin-left: 350px; /* Adjust for left navbar */
+  padding: 2rem 1.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.doc-card {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.doc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.doc-header h2 {
+  font-size: 1.75rem;
+  color: #1e40af;
+  font-weight: 700;
+}
+
+.doc-select {
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  background-color: #f9fafb;
+  font-weight: 500;
+}
+
+.doc-overview {
+  color: #374151;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.doc-update {
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.doc-steps {
+  margin-bottom: 2rem;
+}
+
+.doc-step {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 0;
+}
+
+.doc-step-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #1e3a8a;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.doc-step-content {
+  margin-top: 0.75rem;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.doc-step-content ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.doc-authorities h3 {
+  color: #2563eb;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.doc-authorities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.doc-authorities li {
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+.doc-authorities a {
+  color: #15803d;
+  text-decoration: none;
+}
+
+.doc-authorities a:hover {
+  text-decoration: underline;
+}
+
+.doc-contact {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.doc-btn-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.doc-btn {
+  background-color: #15803d;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.doc-btn:hover {
+  background-color: #1e40af;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .doc-container {
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .doc-container {
+    margin-left: 0;
+    padding: 1.5rem 1rem;
+  }
+
+  .doc-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .doc-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .doc-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .doc-step-title {
+    font-size: 1rem;
+  }
+
+  .doc-btn {
+    width: 100%;
+  }
+}

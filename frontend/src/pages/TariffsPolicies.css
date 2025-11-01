@@ -1,0 +1,60 @@
+.tariff-container {
+  margin-left: 350px; /* Adjust based on your left navbar */
+  padding: 2rem 1.5rem;
+}
+
+.tp-card {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tp-card h3 {
+  color: #162b6e;
+  margin-bottom: 0.75rem;
+}
+
+.tp-card label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: #2e4baa;
+}
+
+.tp-card input,
+.tp-card select {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+
+.hs-btn {
+  padding: 0.5rem 1rem;
+  background-color: #162b6e;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.hs-btn:hover {
+  background-color: #1e3378;
+}
+
+.tp-result {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f3f4f6; /* gray-100 */
+  border-radius: 0.5rem;
+}
+
+.tp-result p {
+  color: #4b5563;
+  line-height: 1.5;
+}

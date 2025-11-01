@@ -1,0 +1,135 @@
+/* ====== Product Recommender Page ====== */
+.pr-container {
+  margin-left: 350px; /* Adjust based on sidebar width */
+  padding: 2rem 1.5rem;
+  font-family: 'Inter', sans-serif;
+  color: #1f2937; /* Gray-800 */
+}
+
+/* Header */
+.pr-container h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 1.5rem;
+}
+
+/* Filters */
+.pr-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.pr-filters label {
+  font-weight: 500;
+  color: #111827;
+}
+
+.pr-filters select,
+.pr-filters input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.pr-btn {
+  background-color: #163496;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.pr-btn:hover {
+  background-color: #293b79;
+}
+
+/* Cards */
+.pr-card {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pr-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Top Products List */
+.pr-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.pr-list-item {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.pr-list-item:hover {
+  transform: scale(1.03);
+}
+
+/* Product Details */
+.pr-list-item h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.pr-list-item p {
+  color: #4b5563;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Summary and Tips */
+.pr-summary {
+  margin-top: 2rem;
+}
+
+.pr-summary h3 {
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.pr-summary ul {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+  color: #374151;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pr-container {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .pr-filters {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pr-list {
+    grid-template-columns: 1fr;
+  }
+}

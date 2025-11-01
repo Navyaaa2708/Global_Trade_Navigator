@@ -1,0 +1,106 @@
+/* Container */
+.lh-container {
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f8fc;
+  color: #333;
+}
+
+/* Heading */
+.lh-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1f3a93;
+}
+
+/* Map */
+.lh-map {
+  height: 500px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+/* Info Panel */
+.lh-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.lh-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #1f3a93;
+}
+
+/* Truck cards */
+.lh-info div {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lh-info div:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Truck heading */
+.lh-info h4 {
+  font-size: 1.25rem;
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+}
+
+/* List of stops */
+.lh-info ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.lh-info li {
+  background-color: #e3f2fd;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #1a237e;
+  transition: background-color 0.3s ease;
+}
+
+.lh-info li:hover {
+  background-color: #bbdefb;
+}
+
+/* Tooltip override */
+.leaflet-tooltip {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: rgba(31, 58, 147, 0.85);
+  border-radius: 6px;
+  padding: 0.3rem 0.6rem;
+}
+
+/* Polyline colors (override default dashed line) */
+.leaflet-interactive {
+  stroke-linecap: round;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .lh-map {
+    height: 400px;
+  }
+
+  .lh-info ul {
+    flex-direction: column;
+  }
+}

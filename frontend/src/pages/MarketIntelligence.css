@@ -1,0 +1,107 @@
+/* ====== Logistics Hub Page ====== */
+.lh-container {
+  margin-left: 350px;
+  padding: 2rem 1.5rem;
+  font-family: 'Inter', sans-serif;
+  color: #1f2937;
+  background-color: #f9fafb;
+}
+
+/* Header */
+.lh-container h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Map */
+.lh-map {
+  width: 100%;
+  height: 500px;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+}
+
+/* Info Panel */
+.lh-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Truck Status Card */
+.lh-info .lh-card {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lh-info .lh-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.lh-info h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1e40af;
+}
+
+/* List of Stops */
+.lh-info ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.lh-info li {
+  background-color: #e0f2fe;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  color: #1e3a8a;
+  transition: background-color 0.3s ease;
+}
+
+.lh-info li:hover {
+  background-color: #bae6fd;
+}
+
+/* Tooltip on map */
+.leaflet-tooltip {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: rgba(30, 64, 175, 0.85);
+  border-radius: 6px;
+  padding: 0.3rem 0.6rem;
+}
+
+/* Polyline */
+.leaflet-interactive {
+  stroke-linecap: round;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .lh-container {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .lh-map {
+    height: 400px;
+  }
+
+  .lh-info ul {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,94 @@
+/* Main container aligns with other pages */
+.dashboard-container {
+  padding: 2rem 3rem; /* more space on left/right */
+  max-width: 1200px;  /* central content width */
+  margin-left: 350px;
+}
+
+/* Header */
+.dashboard-container h2 {
+  color: #162b6e; /* green-600 */
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+/* Quick Stats Cards */
+.dashboard-stats .hs-card {
+  padding: 1.5rem;
+  background-color: #f9fafb;
+  border-radius: 0.75rem;
+  text-align: center;
+  min-height: 120px;
+}
+
+.stat-card h3 {
+  font-size: 2rem;
+  color: #1d3996; /* green-600 */
+  margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+  color: #4b5563; /* gray-700 */
+  font-weight: 500;
+}
+
+/* Mini Charts Cards */
+.dashboard-charts .hs-card {
+  padding: 1rem 1.5rem;
+  background-color: #f9fafb;
+  border-radius: 0.75rem;
+}
+
+/* Chart titles */
+.dashboard-charts h3 {
+  color: #104595;
+  margin-bottom: 0.75rem;
+}
+
+/* Quick Links Card */
+.dashboard-links h3 {
+  color: #2951d1;
+  margin-bottom: 1rem;
+}
+
+.dashboard-links a {
+  display: block;
+  padding: 0.75rem 1rem;
+  background-color: #f3f4f6;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  color: #1e40af;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-links a:hover {
+  background-color: #e6f4ea;
+  color: #385dd6;
+}
+
+/* Welcome Card */
+.dashboard-welcome h3 {
+  color: #0a216d;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-welcome p {
+  color: #8f9abc;
+  line-height: 1.6;
+}
+
+/* Grid layout matches previous theme */
+.hs-news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 1rem 1.5rem;
+  }
+}

@@ -1,0 +1,33 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+/* Sidebar.css */
+.sidebar {
+  width: 250px; /* fixed width */
+  min-height: 100vh; /* full height */
+  background-color: #1e293b; /* Tailwind slate-800 */
+  color: white;
+  padding: 2rem 1rem;
+}
