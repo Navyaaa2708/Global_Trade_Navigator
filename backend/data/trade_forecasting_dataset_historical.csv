@@ -1,0 +1,441 @@
+Country,Year,Top_Imported_Products,Top_Exported_Products,High_Demand_Products,Native_Products,Import_Value_USD_Billion,Export_Value_USD_Billion,Demand_Index,Trade_Balance_USD_Billion,GDP_USD_Billion,Population_Million,Inflation_Rate_Percent,Currency_Exchange_USD
+United States,2015,"Machinery, Chemicals, Software","Spices, Oil, Food Products","Jewelry, Ships","Watches, Gas, Food Products",2871.25,367.67,94.55,-122.54,15159.85,180.62,5.58,72.92
+United States,2016,"Textiles, Chemicals, Steel","Ships, Watches, Chemicals","Software, Oil","Pharmaceuticals, Chemicals, Palm Oil",1030.84,63.03,51.18,-582.39,15180.43,1382.51,12.57,70.13
+United States,2017,"Machinery, Pharmaceuticals, Palm Oil","Spices, Steel, Textiles","Electronics, Pharmaceuticals","Vehicles, Jewelry, Software",1914.71,1452.19,66.47,-377.24,24200.07,359.31,14.86,70.62
+United States,2018,"Palm Oil, Software, Pharmaceuticals","Spices, Software, Oil","Jewelry, Machinery","Chemicals, Oil, Jewelry",2307.7,660.13,80.99,-347.73,16810.01,99.29,10.78,46.88
+United States,2019,"Palm Oil, Textiles, Electronics","Software, Jewelry, Coffee","Tea, Coffee","Watches, Gas, Pharmaceuticals",2826.53,738.26,76.66,-239.48,820.3,231.03,4.96,69.63
+United States,2020,"Electronics, Oil, Machinery","Pharmaceuticals, Machinery, Palm Oil","Electronics, Steel","Food Products, Chemicals, Machinery",2611.34,2413.21,92.22,192.02,18153.09,410.27,2.74,92.8
+United States,2021,"Tea, Watches, Jewelry","Chemicals, Tea, Spices","Chemicals, Oil","Coffee, Software, Pharmaceuticals",533.67,2878.59,83.87,375.71,13798.3,1385.67,7.46,17.41
+United States,2022,"Coffee, Gas, Watches","Electronics, Corn, Robotics","Corn, Spices","Corn, Rice, Watches",427.3,162.75,54.5,-84.37,11153.43,484.31,7.43,45.71
+United States,2023,"Rice, Robotics, Spices","Textiles, Palm Oil, Chemicals","Textiles, Vehicles","Palm Oil, Tea, Chemicals",2657.08,2569.05,57.88,-152.16,15025.75,305.93,13.9,87.41
+United States,2024,"Software, Coffee, Spices","Pharmaceuticals, Chemicals, Jewelry","Corn, Spices","Chemicals, Oil, Jewelry",2769.36,1694.3,60.79,590.67,13606.86,319.57,6.47,1.07
+United States,2025,"Software, Gas, Palm Oil","Robotics, Gas, Corn","Pharmaceuticals, Steel","Tea, Pharmaceuticals, Food Products",1483.67,1753.26,70.74,-153.92,12790.3,361.43,0.86,40.33
+China,2015,"Corn, Pharmaceuticals, Rice","Rice, Vehicles, Food Products","Robotics, Spices","Food Products, Ships, Corn",2122.51,1308.07,96.91,469.43,14081.72,961.32,10.02,88.13
+China,2016,"Watches, Electronics, Oil","Textiles, Electronics, Rice","Machinery, Palm Oil","Palm Oil, Vehicles, Coffee",2575.77,663.91,56.94,370.32,3441.04,620.98,3.15,16.17
+China,2017,"Robotics, Oil, Corn","Textiles, Corn, Rice","Robotics, Pharmaceuticals","Corn, Gas, Watches",1690.25,2957.27,42.97,145.68,10928.43,392.98,5.29,8.77
+China,2018,"Gas, Rice, Corn","Robotics, Palm Oil, Steel","Electronics, Watches","Food Products, Machinery, Steel",1973.62,1166.6,51.42,-449.31,22139.25,1044.66,3.58,86.07
+China,2019,"Robotics, Oil, Textiles","Electronics, Gas, Chemicals","Textiles, Food Products","Software, Pharmaceuticals, Spices",681.29,2771.69,60.25,-233.23,15750.06,37.89,13.84,59.01
+China,2020,"Textiles, Oil, Rice","Rice, Food Products, Machinery","Corn, Tea","Gas, Watches, Oil",1203.57,369.59,46.54,499.78,1296.19,990.94,4.31,6.17
+China,2021,"Steel, Coffee, Jewelry","Electronics, Software, Food Products","Steel, Tea","Textiles, Jewelry, Watches",537.77,2346.41,81.19,23.15,19812.3,662.49,8.68,72.76
+China,2022,"Robotics, Ships, Oil","Rice, Software, Pharmaceuticals","Coffee, Electronics","Robotics, Gas, Jewelry",1587.77,2051.92,98.65,29.32,1945.77,438.03,9.0,50.32
+China,2023,"Watches, Tea, Food Products","Oil, Chemicals, Tea","Jewelry, Steel","Tea, Corn, Watches",2345.23,2761.25,66.89,536.36,23380.28,1102.79,9.49,35.02
+China,2024,"Rice, Food Products, Software","Electronics, Coffee, Steel","Corn, Pharmaceuticals","Coffee, Ships, Chemicals",1606.42,2839.01,62.87,564.31,13248.87,424.95,10.91,8.89
+China,2025,"Rice, Tea, Corn","Food Products, Tea, Watches","Ships, Tea","Rice, Corn, Chemicals",339.76,2957.1,79.11,377.29,22337.43,224.4,13.45,21.04
+Germany,2015,"Rice, Robotics, Software","Ships, Gas, Electronics","Textiles, Jewelry","Spices, Coffee, Food Products",391.96,905.79,55.68,-330.16,13268.32,1134.07,6.03,60.92
+Germany,2016,"Gas, Textiles, Robotics","Ships, Rice, Corn","Chemicals, Coffee","Robotics, Ships, Electronics",2984.5,552.77,47.12,439.19,8073.33,1045.92,4.49,38.89
+Germany,2017,"Tea, Jewelry, Pharmaceuticals","Vehicles, Textiles, Watches","Corn, Chemicals","Palm Oil, Watches, Robotics",2334.51,385.52,72.05,-599.56,15136.56,1250.75,9.77,13.28
+Germany,2018,"Ships, Tea, Electronics","Spices, Steel, Tea","Palm Oil, Steel","Palm Oil, Vehicles, Robotics",2057.64,247.9,41.88,390.62,2804.0,984.0,3.45,18.65
+Germany,2019,"Ships, Spices, Food Products","Robotics, Rice, Ships","Tea, Electronics","Electronics, Corn, Chemicals",642.78,971.32,40.66,-514.87,1817.0,79.85,8.12,50.53
+Germany,2020,"Pharmaceuticals, Palm Oil, Tea","Ships, Jewelry, Steel","Software, Electronics","Food Products, Chemicals, Ships",1826.56,170.23,43.52,208.25,22721.71,864.48,1.57,47.52
+Germany,2021,"Spices, Pharmaceuticals, Vehicles","Robotics, Software, Oil","Software, Electronics","Tea, Pharmaceuticals, Software",1130.21,2275.97,41.12,313.38,18659.73,1478.28,12.13,49.62
+Germany,2022,"Steel, Food Products, Robotics","Food Products, Watches, Pharmaceuticals","Palm Oil, Pharmaceuticals","Food Products, Coffee, Electronics",247.04,2705.78,45.03,-142.7,18513.83,543.93,2.24,25.88
+Germany,2023,"Textiles, Gas, Watches","Robotics, Watches, Palm Oil","Food Products, Machinery","Ships, Oil, Electronics",2522.58,780.8,65.16,-481.27,17321.33,1472.94,13.03,78.39
+Germany,2024,"Corn, Robotics, Palm Oil","Ships, Rice, Jewelry","Chemicals, Textiles","Machinery, Chemicals, Robotics",998.25,1061.71,47.01,-22.49,19037.43,115.61,11.85,64.44
+Germany,2025,"Spices, Pharmaceuticals, Gas","Food Products, Watches, Oil","Electronics, Oil","Steel, Textiles, Corn",1368.1,646.2,41.84,-210.4,17928.75,366.68,12.53,51.35
+Netherlands,2015,"Gas, Ships, Palm Oil","Vehicles, Textiles, Palm Oil","Textiles, Pharmaceuticals","Corn, Watches, Software",98.5,2536.22,83.84,-459.85,15085.43,909.53,14.26,84.53
+Netherlands,2016,"Watches, Palm Oil, Oil","Electronics, Corn, Chemicals","Textiles, Machinery","Tea, Jewelry, Steel",348.41,2590.33,50.33,-461.8,23552.6,710.54,9.18,34.04
+Netherlands,2017,"Software, Palm Oil, Ships","Oil, Food Products, Robotics","Pharmaceuticals, Jewelry","Electronics, Vehicles, Chemicals",1137.55,1920.62,99.01,-6.43,9323.43,793.68,8.08,45.3
+Netherlands,2018,"Electronics, Corn, Spices","Machinery, Steel, Robotics","Vehicles, Palm Oil","Ships, Corn, Tea",1119.47,2889.52,72.08,598.77,10615.9,240.52,10.6,17.33
+Netherlands,2019,"Food Products, Textiles, Vehicles","Vehicles, Machinery, Spices","Palm Oil, Corn","Palm Oil, Jewelry, Pharmaceuticals",1520.2,2839.16,54.8,-591.19,16547.16,300.59,5.55,16.73
+Netherlands,2020,"Tea, Electronics, Chemicals","Jewelry, Gas, Textiles","Coffee, Watches","Gas, Ships, Vehicles",918.84,2892.57,42.35,-72.5,10837.14,1256.74,2.5,66.3
+Netherlands,2021,"Electronics, Coffee, Rice","Electronics, Machinery, Chemicals","Ships, Corn","Coffee, Spices, Vehicles",2608.42,1434.88,47.99,526.18,22449.86,274.41,3.39,80.83
+Netherlands,2022,"Chemicals, Pharmaceuticals, Palm Oil","Watches, Jewelry, Oil","Coffee, Software","Robotics, Ships, Software",2159.78,2615.52,93.79,174.82,21889.28,837.96,5.03,61.82
+Netherlands,2023,"Steel, Machinery, Pharmaceuticals","Corn, Ships, Jewelry","Oil, Pharmaceuticals","Food Products, Gas, Watches",1210.11,54.57,56.99,98.07,18158.37,288.24,12.37,77.83
+Netherlands,2024,"Textiles, Coffee, Palm Oil","Tea, Machinery, Watches","Electronics, Software","Vehicles, Corn, Ships",2917.38,300.19,61.11,-307.43,22906.21,120.87,10.62,53.76
+Netherlands,2025,"Vehicles, Ships, Corn","Oil, Corn, Machinery","Rice, Electronics","Coffee, Steel, Jewelry",1164.22,1627.64,92.69,-436.32,9421.1,736.97,12.45,96.09
+Italy,2015,"Chemicals, Vehicles, Food Products","Pharmaceuticals, Robotics, Textiles","Steel, Robotics","Food Products, Vehicles, Corn",2231.48,1040.52,70.58,498.71,10945.47,636.24,6.73,39.39
+Italy,2016,"Steel, Software, Food Products","Steel, Food Products, Spices","Palm Oil, Food Products","Machinery, Steel, Tea",926.41,2932.36,42.22,53.76,18053.69,670.47,14.14,44.66
+Italy,2017,"Rice, Tea, Jewelry","Spices, Watches, Coffee","Chemicals, Pharmaceuticals","Spices, Oil, Gas",881.09,2894.2,70.33,162.58,9744.89,193.97,5.62,82.2
+Italy,2018,"Rice, Pharmaceuticals, Robotics","Rice, Electronics, Robotics","Gas, Watches","Watches, Tea, Chemicals",2607.18,1604.42,43.14,-525.33,1424.21,1430.03,14.59,32.32
+Italy,2019,"Ships, Gas, Steel","Rice, Software, Electronics","Oil, Gas","Food Products, Software, Tea",162.13,1427.33,42.19,580.7,13441.87,1334.16,11.65,87.63
+Italy,2020,"Spices, Rice, Tea","Coffee, Software, Gas","Watches, Software","Electronics, Food Products, Rice",1748.6,2580.65,77.92,197.73,10072.83,1122.56,9.4,57.33
+Italy,2021,"Corn, Oil, Palm Oil","Pharmaceuticals, Spices, Robotics","Tea, Watches","Ships, Rice, Gas",2711.53,2323.88,90.58,151.32,21623.23,435.85,8.65,91.85
+Italy,2022,"Watches, Spices, Pharmaceuticals","Palm Oil, Chemicals, Robotics","Robotics, Electronics","Spices, Steel, Vehicles",718.01,2341.94,44.45,-456.44,7095.71,1491.98,8.81,57.4
+Italy,2023,"Oil, Ships, Gas","Rice, Electronics, Robotics","Software, Jewelry","Spices, Ships, Vehicles",2153.91,158.56,86.48,553.5,6503.39,62.06,8.81,66.21
+Italy,2024,"Corn, Jewelry, Steel","Robotics, Gas, Machinery","Robotics, Jewelry","Corn, Software, Oil",1965.66,574.21,83.95,-111.92,15228.74,491.95,10.54,21.36
+Italy,2025,"Coffee, Food Products, Watches","Steel, Spices, Rice","Ships, Vehicles","Steel, Software, Watches",2078.02,1772.87,99.77,-193.41,20977.53,940.83,4.42,57.44
+United Kingdom,2015,"Coffee, Machinery, Jewelry","Robotics, Steel, Palm Oil","Rice, Jewelry","Steel, Jewelry, Ships",953.32,2085.49,60.07,-467.41,18457.04,1282.06,13.15,25.31
+United Kingdom,2016,"Corn, Rice, Food Products","Gas, Steel, Tea","Machinery, Food Products","Watches, Ships, Software",1173.65,1883.28,75.97,482.63,3464.59,221.64,3.37,26.26
+United Kingdom,2017,"Rice, Palm Oil, Corn","Electronics, Watches, Gas","Tea, Gas","Ships, Coffee, Rice",2430.22,1412.55,46.99,-487.26,6740.68,555.62,9.21,53.88
+United Kingdom,2018,"Coffee, Palm Oil, Pharmaceuticals","Chemicals, Rice, Ships","Coffee, Watches","Vehicles, Tea, Oil",889.74,1389.34,63.33,-105.34,17419.4,1308.44,0.65,17.93
+United Kingdom,2019,"Steel, Textiles, Vehicles","Chemicals, Tea, Corn","Robotics, Textiles","Steel, Pharmaceuticals, Watches",2746.49,2486.94,68.5,-413.48,16772.55,365.16,8.65,44.45
+United Kingdom,2020,"Steel, Tea, Corn","Palm Oil, Electronics, Rice","Coffee, Pharmaceuticals","Electronics, Robotics, Tea",527.62,1674.69,75.86,552.01,10723.78,1478.15,3.1,30.94
+United Kingdom,2021,"Chemicals, Machinery, Robotics","Textiles, Pharmaceuticals, Food Products","Ships, Electronics","Vehicles, Textiles, Coffee",2497.7,2369.17,57.54,231.77,21319.15,1372.19,0.13,32.48
+United Kingdom,2022,"Textiles, Vehicles, Corn","Tea, Software, Gas","Oil, Ships","Rice, Gas, Software",275.01,1781.09,54.55,434.21,11468.86,799.9,5.81,53.78
+United Kingdom,2023,"Robotics, Food Products, Rice","Robotics, Vehicles, Watches","Corn, Pharmaceuticals","Textiles, Watches, Chemicals",895.4,315.45,95.58,-331.14,7995.34,1452.36,5.01,98.65
+United Kingdom,2024,"Food Products, Gas, Software","Rice, Machinery, Robotics","Spices, Food Products","Corn, Watches, Pharmaceuticals",2979.02,2529.91,96.56,-128.3,22215.04,1019.77,10.4,69.58
+United Kingdom,2025,"Food Products, Tea, Spices","Spices, Food Products, Jewelry","Coffee, Textiles","Spices, Steel, Chemicals",1154.17,2882.05,89.05,-269.68,23119.85,476.03,13.06,48.53
+South Korea,2015,"Spices, Tea, Watches","Ships, Jewelry, Corn","Chemicals, Software","Oil, Food Products, Spices",2349.47,274.01,80.86,-453.38,3911.58,357.75,2.43,42.73
+South Korea,2016,"Vehicles, Machinery, Robotics","Watches, Gas, Vehicles","Electronics, Chemicals","Spices, Ships, Steel",2988.18,2989.17,99.21,-452.47,1009.48,1274.68,9.19,16.33
+South Korea,2017,"Oil, Software, Steel","Oil, Jewelry, Electronics","Ships, Gas","Ships, Steel, Coffee",2717.08,2567.34,70.19,455.59,18020.65,558.78,14.65,11.3
+South Korea,2018,"Oil, Corn, Spices","Electronics, Corn, Rice","Robotics, Palm Oil","Ships, Vehicles, Rice",2481.21,2310.18,60.12,516.45,186.56,938.75,12.87,42.63
+South Korea,2019,"Corn, Machinery, Software","Electronics, Rice, Coffee","Ships, Palm Oil","Food Products, Corn, Vehicles",2077.48,1191.57,57.45,-598.82,5448.81,254.61,1.35,0.21
+South Korea,2020,"Electronics, Chemicals, Software","Software, Spices, Machinery","Watches, Steel","Electronics, Gas, Jewelry",449.15,1603.71,83.76,463.44,11267.21,1175.45,12.74,25.35
+South Korea,2021,"Jewelry, Textiles, Oil","Steel, Palm Oil, Gas","Corn, Vehicles","Software, Food Products, Steel",2389.32,253.58,68.32,-161.63,21353.51,285.14,4.59,16.49
+South Korea,2022,"Software, Spices, Oil","Coffee, Watches, Machinery","Tea, Pharmaceuticals","Oil, Palm Oil, Gas",1207.37,1221.94,45.46,-522.58,8379.96,81.73,2.01,62.1
+South Korea,2023,"Pharmaceuticals, Palm Oil, Vehicles","Spices, Software, Oil","Steel, Machinery","Textiles, Tea, Watches",2777.1,1299.03,96.3,-581.57,13630.27,124.54,10.49,8.91
+South Korea,2024,"Tea, Spices, Jewelry","Chemicals, Spices, Pharmaceuticals","Watches, Coffee","Steel, Chemicals, Pharmaceuticals",1572.33,1108.12,88.15,-409.52,22266.35,1422.14,2.39,70.72
+South Korea,2025,"Rice, Coffee, Oil","Machinery, Ships, Chemicals","Vehicles, Watches","Coffee, Oil, Software",1938.18,1519.39,67.26,439.13,4777.67,1150.97,0.2,92.19
+Hong Kong,2015,"Coffee, Steel, Chemicals","Textiles, Coffee, Pharmaceuticals","Coffee, Software","Machinery, Gas, Electronics",973.9,1842.51,86.53,-343.57,12643.31,965.24,9.49,29.55
+Hong Kong,2016,"Chemicals, Tea, Gas","Software, Vehicles, Oil","Corn, Jewelry","Ships, Robotics, Oil",2303.47,210.4,70.27,239.0,13200.65,528.34,12.69,13.66
+Hong Kong,2017,"Rice, Spices, Ships","Robotics, Vehicles, Textiles","Robotics, Vehicles","Gas, Coffee, Ships",662.25,810.04,76.48,-484.77,21378.43,1463.58,1.94,29.8
+Hong Kong,2018,"Jewelry, Oil, Corn","Jewelry, Electronics, Steel","Palm Oil, Robotics","Coffee, Steel, Jewelry",1401.57,2243.0,96.74,-37.69,15153.92,697.36,9.67,70.43
+Hong Kong,2019,"Vehicles, Palm Oil, Machinery","Rice, Vehicles, Machinery","Spices, Jewelry","Pharmaceuticals, Ships, Spices",1123.62,1296.08,66.07,391.99,1783.87,871.15,14.09,83.99
+Hong Kong,2020,"Coffee, Jewelry, Steel","Software, Rice, Spices","Oil, Pharmaceuticals","Robotics, Ships, Palm Oil",1011.3,1146.12,94.19,30.37,7070.6,1038.49,0.92,25.0
+Hong Kong,2021,"Electronics, Gas, Vehicles","Rice, Steel, Watches","Pharmaceuticals, Chemicals","Coffee, Steel, Ships",2187.02,2101.04,56.63,58.67,7845.32,522.97,1.35,41.12
+Hong Kong,2022,"Corn, Palm Oil, Steel","Tea, Chemicals, Jewelry","Vehicles, Ships","Food Products, Corn, Tea",1643.92,105.3,40.16,-218.74,22812.38,137.18,2.04,55.54
+Hong Kong,2023,"Coffee, Oil, Jewelry","Vehicles, Food Products, Machinery","Coffee, Software","Robotics, Spices, Electronics",2633.29,1810.38,83.93,-478.4,6843.22,1158.79,7.63,73.56
+Hong Kong,2024,"Robotics, Vehicles, Steel","Machinery, Pharmaceuticals, Jewelry","Ships, Oil","Jewelry, Corn, Vehicles",1613.88,2302.13,74.2,189.47,9685.82,103.8,7.64,14.67
+Hong Kong,2025,"Coffee, Jewelry, Ships","Textiles, Chemicals, Ships","Corn, Gas","Robotics, Software, Gas",2464.37,1754.21,70.11,492.08,9026.88,1473.84,9.45,2.92
+Japan,2015,"Steel, Rice, Pharmaceuticals","Chemicals, Robotics, Pharmaceuticals","Gas, Software","Software, Rice, Electronics",1015.71,1193.05,62.51,-596.68,20890.35,1367.46,13.67,9.73
+Japan,2016,"Watches, Food Products, Software","Pharmaceuticals, Food Products, Rice","Steel, Corn","Jewelry, Vehicles, Machinery",2832.93,2280.91,64.72,-78.38,18589.31,1304.48,11.82,9.71
+Japan,2017,"Steel, Software, Coffee","Oil, Watches, Pharmaceuticals","Machinery, Palm Oil","Coffee, Tea, Electronics",2507.27,773.77,71.31,-298.94,16705.07,1116.5,11.56,98.36
+Japan,2018,"Electronics, Machinery, Robotics","Rice, Vehicles, Coffee","Watches, Software","Coffee, Steel, Electronics",1714.32,1131.35,46.75,124.88,20364.34,41.97,2.82,24.3
+Japan,2019,"Rice, Coffee, Chemicals","Steel, Textiles, Oil","Ships, Gas","Tea, Coffee, Gas",2546.64,2369.58,90.07,-102.34,11702.24,961.53,6.27,84.78
+Japan,2020,"Rice, Coffee, Software","Steel, Tea, Oil","Gas, Palm Oil","Ships, Gas, Rice",1143.66,2641.02,96.85,-53.93,4066.2,402.63,8.1,92.85
+Japan,2021,"Textiles, Rice, Spices","Spices, Textiles, Food Products","Spices, Corn","Robotics, Palm Oil, Steel",2995.63,581.2,97.43,485.54,23732.86,1334.1,0.19,3.06
+Japan,2022,"Oil, Chemicals, Jewelry","Corn, Robotics, Jewelry","Textiles, Electronics","Palm Oil, Textiles, Watches",2588.89,814.55,56.03,454.75,14049.05,1145.65,12.15,13.04
+Japan,2023,"Oil, Machinery, Food Products","Coffee, Tea, Vehicles","Textiles, Electronics","Gas, Robotics, Watches",2228.1,752.04,94.78,-538.79,997.54,331.73,5.41,85.65
+Japan,2024,"Food Products, Vehicles, Watches","Palm Oil, Chemicals, Rice","Jewelry, Oil","Gas, Machinery, Robotics",2145.23,1260.24,69.2,-400.16,14188.24,1089.53,6.17,56.59
+Japan,2025,"Watches, Chemicals, Robotics","Jewelry, Food Products, Electronics","Watches, Chemicals","Robotics, Palm Oil, Ships",1963.01,1317.81,55.98,-41.86,6681.99,945.74,14.57,37.88
+Russia,2015,"Oil, Corn, Steel","Coffee, Ships, Steel","Coffee, Spices","Corn, Machinery, Textiles",1370.66,1692.61,40.07,-222.87,19870.12,283.53,1.35,48.95
+Russia,2016,"Gas, Spices, Palm Oil","Rice, Machinery, Software","Coffee, Jewelry","Corn, Vehicles, Watches",2120.26,960.07,55.95,-221.1,20909.48,1311.59,13.25,63.48
+Russia,2017,"Oil, Steel, Coffee","Watches, Palm Oil, Robotics","Corn, Oil","Tea, Coffee, Gas",221.31,1011.64,92.7,-299.82,1760.2,415.13,10.04,11.23
+Russia,2018,"Palm Oil, Jewelry, Chemicals","Spices, Watches, Ships","Jewelry, Pharmaceuticals","Machinery, Palm Oil, Vehicles",878.16,1015.9,66.83,-79.31,12033.72,1158.96,14.9,55.82
+Russia,2019,"Software, Jewelry, Spices","Electronics, Jewelry, Spices","Watches, Corn","Machinery, Gas, Software",2308.8,468.45,57.08,94.09,4311.43,1025.16,9.91,31.92
+Russia,2020,"Robotics, Gas, Steel","Robotics, Oil, Watches","Steel, Gas","Jewelry, Robotics, Software",931.5,1657.56,42.4,569.01,17506.39,1430.55,0.39,85.75
+Russia,2021,"Tea, Robotics, Coffee","Vehicles, Jewelry, Machinery","Steel, Jewelry","Steel, Corn, Watches",1390.39,51.54,61.58,271.84,20088.64,845.26,14.83,59.35
+Russia,2022,"Electronics, Textiles, Machinery","Tea, Oil, Textiles","Chemicals, Oil","Machinery, Oil, Corn",1785.26,723.35,91.51,483.75,7622.87,647.14,8.46,45.66
+Russia,2023,"Pharmaceuticals, Corn, Vehicles","Vehicles, Steel, Corn","Watches, Palm Oil","Corn, Watches, Oil",1688.39,1886.82,60.56,-183.79,14844.91,32.08,12.54,51.17
+Russia,2024,"Textiles, Steel, Spices","Vehicles, Palm Oil, Ships","Food Products, Rice","Coffee, Jewelry, Pharmaceuticals",1800.08,740.85,93.68,-334.07,21593.5,302.57,15.0,87.44
+Russia,2025,"Corn, Rice, Steel","Watches, Steel, Textiles","Rice, Coffee","Electronics, Vehicles, Robotics",778.43,2825.11,56.09,210.58,9465.8,1190.09,3.31,98.2
+Ireland,2015,"Spices, Textiles, Jewelry","Palm Oil, Electronics, Rice","Vehicles, Steel","Gas, Food Products, Chemicals",2109.14,784.52,55.13,-295.4,7872.28,1001.16,1.73,81.27
+Ireland,2016,"Robotics, Oil, Spices","Coffee, Textiles, Oil","Watches, Tea","Coffee, Watches, Tea",2120.9,1161.28,94.73,206.14,9708.47,1222.28,8.17,86.23
+Ireland,2017,"Software, Watches, Steel","Textiles, Gas, Tea","Chemicals, Jewelry","Steel, Robotics, Vehicles",717.97,1482.26,98.74,-280.3,7149.59,475.14,14.21,36.68
+Ireland,2018,"Jewelry, Ships, Food Products","Oil, Tea, Textiles","Machinery, Rice","Food Products, Robotics, Ships",2198.49,658.17,71.36,230.58,20610.92,416.28,13.26,32.7
+Ireland,2019,"Pharmaceuticals, Spices, Robotics","Textiles, Spices, Robotics","Corn, Oil","Watches, Steel, Tea",772.21,1159.41,91.59,-450.29,10997.35,943.51,2.9,54.22
+Ireland,2020,"Rice, Spices, Food Products","Gas, Watches, Palm Oil","Textiles, Machinery","Software, Watches, Jewelry",1279.09,2421.33,67.86,-497.83,14915.44,1180.69,2.14,99.0
+Ireland,2021,"Chemicals, Food Products, Corn","Chemicals, Steel, Jewelry","Pharmaceuticals, Spices","Chemicals, Steel, Jewelry",837.49,126.46,44.91,-50.66,8640.81,1428.4,14.45,93.1
+Ireland,2022,"Watches, Oil, Food Products","Steel, Software, Watches","Watches, Jewelry","Gas, Robotics, Electronics",1336.37,578.45,46.72,-84.5,171.44,723.82,13.5,0.57
+Ireland,2023,"Robotics, Food Products, Tea","Tea, Oil, Machinery","Jewelry, Chemicals","Watches, Food Products, Vehicles",1740.39,612.2,69.26,-292.44,24662.92,133.18,9.09,75.85
+Ireland,2024,"Ships, Robotics, Oil","Food Products, Steel, Spices","Corn, Jewelry","Gas, Software, Tea",1397.27,2283.57,94.58,-401.04,15610.32,921.12,14.55,33.8
+Ireland,2025,"Steel, Food Products, Corn","Chemicals, Coffee, Food Products","Palm Oil, Corn","Electronics, Coffee, Vehicles",248.03,1065.96,82.11,481.69,18814.71,668.82,14.13,48.49
+Saudi Arabia,2015,"Electronics, Vehicles, Machinery","Palm Oil, Oil, Coffee","Steel, Textiles","Machinery, Coffee, Tea",612.1,2178.24,79.07,422.88,17009.33,886.04,12.13,80.0
+Saudi Arabia,2016,"Oil, Gas, Robotics","Robotics, Gas, Steel","Watches, Gas","Food Products, Textiles, Jewelry",2380.09,2518.86,70.41,-186.02,9321.94,786.36,4.06,94.81
+Saudi Arabia,2017,"Gas, Electronics, Vehicles","Jewelry, Steel, Ships","Tea, Rice","Steel, Electronics, Software",478.51,1011.51,98.14,375.23,15501.55,1077.26,0.2,63.0
+Saudi Arabia,2018,"Oil, Pharmaceuticals, Vehicles","Software, Gas, Palm Oil","Robotics, Electronics","Palm Oil, Coffee, Robotics",1561.03,2380.87,95.82,470.08,6877.71,1277.06,12.98,29.7
+Saudi Arabia,2019,"Machinery, Oil, Spices","Chemicals, Software, Steel","Machinery, Software","Palm Oil, Watches, Oil",2525.21,134.22,82.32,450.36,17855.51,472.27,7.98,1.96
+Saudi Arabia,2020,"Spices, Rice, Food Products","Textiles, Robotics, Vehicles","Electronics, Gas","Machinery, Electronics, Corn",2841.03,2622.4,81.72,300.97,4639.16,295.88,14.83,1.84
+Saudi Arabia,2021,"Steel, Gas, Rice","Tea, Electronics, Machinery","Pharmaceuticals, Software","Food Products, Palm Oil, Steel",1581.23,545.8,53.41,-451.95,463.42,133.34,4.98,76.61
+Saudi Arabia,2022,"Tea, Software, Vehicles","Corn, Machinery, Rice","Palm Oil, Jewelry","Food Products, Chemicals, Watches",671.54,526.76,87.32,-188.97,21819.68,1065.81,0.4,77.77
+Saudi Arabia,2023,"Pharmaceuticals, Spices, Electronics","Jewelry, Software, Corn","Oil, Textiles","Tea, Corn, Machinery",1308.77,1005.56,67.12,-551.07,24829.08,1430.02,3.49,20.76
+Saudi Arabia,2024,"Food Products, Gas, Electronics","Tea, Jewelry, Textiles","Pharmaceuticals, Software","Textiles, Watches, Spices",750.11,2670.94,82.54,100.17,12689.39,458.61,13.93,29.59
+Saudi Arabia,2025,"Electronics, Food Products, Ships","Rice, Vehicles, Palm Oil","Steel, Watches","Watches, Palm Oil, Spices",1246.81,1087.88,85.17,-46.5,5437.18,1036.97,12.26,59.47
+Indonesia,2015,"Oil, Coffee, Pharmaceuticals","Robotics, Jewelry, Machinery","Chemicals, Corn","Rice, Palm Oil, Robotics",91.53,2391.28,41.79,-159.83,3477.66,1124.61,14.08,92.7
+Indonesia,2016,"Rice, Jewelry, Ships","Coffee, Jewelry, Ships","Oil, Tea","Food Products, Rice, Jewelry",629.52,246.91,90.36,-493.73,2475.42,261.76,4.34,66.03
+Indonesia,2017,"Rice, Palm Oil, Robotics","Pharmaceuticals, Steel, Textiles","Steel, Vehicles","Rice, Pharmaceuticals, Corn",166.1,1530.91,78.62,488.14,18239.41,1119.01,0.19,83.74
+Indonesia,2018,"Food Products, Tea, Vehicles","Palm Oil, Tea, Coffee","Spices, Steel","Electronics, Rice, Gas",958.28,1084.63,70.34,-576.04,963.81,261.02,13.38,53.87
+Indonesia,2019,"Palm Oil, Software, Oil","Palm Oil, Robotics, Machinery","Rice, Tea","Ships, Textiles, Gas",810.16,375.08,50.39,377.6,16997.29,796.55,7.62,42.3
+Indonesia,2020,"Gas, Robotics, Coffee","Machinery, Watches, Textiles","Vehicles, Ships","Chemicals, Coffee, Rice",419.68,684.42,41.39,-331.98,15172.92,1493.78,6.7,12.23
+Indonesia,2021,"Gas, Palm Oil, Food Products","Chemicals, Food Products, Jewelry","Robotics, Watches","Palm Oil, Tea, Steel",279.05,139.96,82.8,-18.97,21776.6,360.4,1.27,47.56
+Indonesia,2022,"Textiles, Palm Oil, Electronics","Corn, Jewelry, Machinery","Textiles, Machinery","Watches, Spices, Rice",2370.92,429.73,71.8,223.0,10614.28,968.02,5.0,92.42
+Indonesia,2023,"Chemicals, Oil, Machinery","Robotics, Jewelry, Ships","Jewelry, Pharmaceuticals","Food Products, Rice, Oil",432.55,1137.4,44.86,207.09,21048.46,1312.53,6.6,91.82
+Indonesia,2024,"Corn, Rice, Food Products","Coffee, Rice, Robotics","Coffee, Steel","Gas, Spices, Vehicles",2789.08,280.71,58.08,-513.72,573.57,1492.35,9.41,67.47
+Indonesia,2025,"Chemicals, Software, Machinery","Robotics, Rice, Vehicles","Machinery, Rice","Pharmaceuticals, Robotics, Spices",1541.1,2364.1,47.77,125.57,8312.63,572.98,7.11,33.34
+Switzerland,2015,"Ships, Machinery, Chemicals","Jewelry, Textiles, Watches","Spices, Software","Gas, Watches, Machinery",2999.71,1542.52,66.13,497.17,14807.74,557.34,0.93,83.73
+Switzerland,2016,"Machinery, Textiles, Tea","Watches, Corn, Gas","Software, Jewelry","Jewelry, Textiles, Machinery",485.36,1423.43,74.9,-113.44,23847.73,1223.63,1.45,96.23
+Switzerland,2017,"Steel, Spices, Software","Gas, Tea, Machinery","Electronics, Software","Gas, Tea, Robotics",2688.47,2726.61,87.87,-212.87,11097.56,974.91,11.16,13.9
+Switzerland,2018,"Chemicals, Textiles, Gas","Corn, Palm Oil, Spices","Spices, Palm Oil","Pharmaceuticals, Tea, Oil",66.66,2950.87,86.33,386.64,11888.51,713.58,9.35,31.88
+Switzerland,2019,"Palm Oil, Tea, Machinery","Software, Food Products, Tea","Oil, Food Products","Coffee, Watches, Machinery",449.69,571.2,46.74,-189.9,15731.55,532.27,10.63,30.99
+Switzerland,2020,"Jewelry, Food Products, Coffee","Steel, Corn, Vehicles","Food Products, Vehicles","Machinery, Food Products, Tea",2753.82,848.21,73.87,-79.12,14743.8,1390.22,14.55,27.25
+Switzerland,2021,"Tea, Palm Oil, Robotics","Textiles, Rice, Pharmaceuticals","Oil, Tea","Robotics, Textiles, Steel",432.26,1272.64,88.88,-231.14,18164.21,1357.73,9.49,54.58
+Switzerland,2022,"Coffee, Rice, Food Products","Corn, Chemicals, Spices","Ships, Corn","Vehicles, Electronics, Watches",1987.07,1236.56,67.26,-287.6,8888.5,1040.84,10.03,16.14
+Switzerland,2023,"Corn, Pharmaceuticals, Textiles","Software, Pharmaceuticals, Textiles","Textiles, Oil","Steel, Watches, Vehicles",1212.33,2286.17,87.33,475.5,259.43,857.91,0.49,98.17
+Switzerland,2024,"Steel, Textiles, Software","Spices, Software, Coffee","Palm Oil, Chemicals","Ships, Oil, Robotics",1936.53,280.24,45.02,-35.48,15367.58,710.96,3.01,69.78
+Switzerland,2025,"Palm Oil, Chemicals, Steel","Corn, Robotics, Food Products","Food Products, Gas","Jewelry, Pharmaceuticals, Robotics",2282.45,906.01,93.73,21.04,2629.47,397.92,12.32,54.76
+India,2015,"Software, Tea, Palm Oil","Corn, Jewelry, Chemicals","Textiles, Robotics","Palm Oil, Pharmaceuticals, Food Products",1940.17,55.01,77.11,587.71,18896.67,466.76,14.57,9.86
+India,2016,"Textiles, Coffee, Robotics","Chemicals, Steel, Textiles","Jewelry, Gas","Tea, Spices, Palm Oil",1104.36,2713.37,64.6,298.63,1929.69,1422.48,13.59,65.63
+India,2017,"Food Products, Ships, Machinery","Ships, Spices, Pharmaceuticals","Electronics, Ships","Textiles, Spices, Machinery",1626.47,2474.83,71.46,235.37,19601.38,1227.41,6.45,73.19
+India,2018,"Gas, Rice, Spices","Coffee, Steel, Rice","Software, Electronics","Textiles, Steel, Watches",1417.17,663.39,61.86,508.38,4294.75,909.83,9.78,5.03
+India,2019,"Coffee, Tea, Food Products","Ships, Coffee, Textiles","Textiles, Food Products","Corn, Oil, Rice",1805.53,2343.56,78.69,256.35,12209.54,354.86,13.65,74.82
+India,2020,"Software, Corn, Machinery","Textiles, Watches, Jewelry","Jewelry, Software","Vehicles, Textiles, Coffee",870.08,234.41,51.27,534.92,20234.53,153.54,10.51,4.24
+India,2021,"Watches, Machinery, Jewelry","Oil, Food Products, Corn","Vehicles, Electronics","Jewelry, Spices, Robotics",443.76,548.47,55.76,187.56,7737.63,1064.53,13.89,69.42
+India,2022,"Electronics, Software, Jewelry","Palm Oil, Textiles, Pharmaceuticals","Watches, Coffee","Corn, Spices, Coffee",2099.4,2317.32,88.48,-270.72,22547.16,435.29,2.66,19.87
+India,2023,"Robotics, Palm Oil, Software","Vehicles, Corn, Robotics","Palm Oil, Oil","Palm Oil, Ships, Watches",2597.95,1769.82,42.09,127.52,21406.27,435.14,14.16,72.36
+India,2024,"Jewelry, Robotics, Spices","Jewelry, Palm Oil, Electronics","Palm Oil, Corn","Jewelry, Robotics, Chemicals",381.81,1868.02,69.7,68.78,17571.34,1324.42,12.7,59.75
+India,2025,"Vehicles, Robotics, Textiles","Watches, Ships, Rice","Vehicles, Steel","Vehicles, Textiles, Chemicals",2111.25,572.09,57.59,126.68,286.7,166.36,5.38,86.99
+Brazil,2015,"Palm Oil, Spices, Electronics","Chemicals, Palm Oil, Electronics","Steel, Gas","Coffee, Electronics, Machinery",1138.87,1848.81,55.68,-505.2,6909.91,1296.06,11.34,39.19
+Brazil,2016,"Tea, Textiles, Jewelry","Textiles, Coffee, Rice","Vehicles, Rice","Watches, Electronics, Machinery",1876.9,1507.69,49.14,-235.43,6276.1,554.43,11.71,8.73
+Brazil,2017,"Textiles, Oil, Watches","Textiles, Pharmaceuticals, Steel","Pharmaceuticals, Tea","Jewelry, Electronics, Chemicals",402.47,264.28,81.03,-351.29,11886.38,1201.51,9.95,19.52
+Brazil,2018,"Electronics, Machinery, Palm Oil","Gas, Robotics, Textiles","Electronics, Ships","Electronics, Steel, Rice",2350.32,2781.3,48.92,514.85,16799.28,1349.33,11.69,48.55
+Brazil,2019,"Coffee, Palm Oil, Vehicles","Pharmaceuticals, Gas, Palm Oil","Software, Watches","Coffee, Steel, Machinery",2869.39,759.11,46.9,-300.69,15571.63,1440.92,9.08,23.24
+Brazil,2020,"Electronics, Rice, Corn","Corn, Spices, Pharmaceuticals","Rice, Pharmaceuticals","Software, Coffee, Ships",54.79,2466.75,75.66,-5.03,14699.24,1179.85,3.29,25.94
+Brazil,2021,"Robotics, Food Products, Spices","Machinery, Rice, Pharmaceuticals","Electronics, Corn","Jewelry, Software, Machinery",1346.39,2760.97,79.52,-511.46,7555.72,95.79,6.58,93.96
+Brazil,2022,"Jewelry, Vehicles, Machinery","Rice, Ships, Oil","Textiles, Vehicles","Chemicals, Ships, Spices",2205.1,2213.03,44.34,493.76,9297.04,297.19,3.68,25.88
+Brazil,2023,"Gas, Palm Oil, Rice","Tea, Coffee, Oil","Vehicles, Corn","Steel, Electronics, Robotics",1149.1,1749.51,90.0,285.95,725.76,1072.88,1.88,8.52
+Brazil,2024,"Robotics, Electronics, Oil","Machinery, Tea, Palm Oil","Spices, Vehicles","Steel, Spices, Machinery",2432.02,1709.82,89.7,-193.32,16983.39,140.4,14.19,9.78
+Brazil,2025,"Chemicals, Tea, Electronics","Watches, Jewelry, Tea","Vehicles, Robotics","Vehicles, Oil, Spices",1480.48,2144.56,51.0,424.45,7733.72,542.27,3.69,16.79
+Canada,2015,"Vehicles, Watches, Food Products","Palm Oil, Pharmaceuticals, Gas","Food Products, Jewelry","Machinery, Electronics, Gas",683.75,1013.42,47.37,-92.11,18421.57,453.62,8.29,22.95
+Canada,2016,"Coffee, Pharmaceuticals, Food Products","Corn, Vehicles, Tea","Textiles, Spices","Pharmaceuticals, Robotics, Corn",1573.33,1480.06,64.58,471.31,23601.15,778.98,2.77,35.48
+Canada,2017,"Pharmaceuticals, Rice, Robotics","Watches, Tea, Electronics","Ships, Vehicles","Chemicals, Gas, Food Products",2352.37,1789.7,49.78,-40.46,14416.52,104.09,6.08,18.34
+Canada,2018,"Pharmaceuticals, Rice, Machinery","Machinery, Tea, Ships","Spices, Food Products","Rice, Software, Vehicles",1148.78,1371.08,56.05,487.5,21122.66,605.86,14.86,90.67
+Canada,2019,"Ships, Steel, Textiles","Corn, Electronics, Software","Corn, Food Products","Robotics, Pharmaceuticals, Electronics",1353.78,2568.35,88.52,349.64,4527.04,288.27,7.13,40.49
+Canada,2020,"Chemicals, Corn, Ships","Rice, Spices, Ships","Coffee, Oil","Spices, Corn, Oil",613.81,510.9,62.05,-235.27,20648.19,1169.43,12.86,44.26
+Canada,2021,"Corn, Food Products, Jewelry","Steel, Palm Oil, Watches","Rice, Coffee","Ships, Machinery, Steel",1253.99,353.7,83.06,38.02,23644.62,1038.65,10.31,82.58
+Canada,2022,"Palm Oil, Software, Watches","Food Products, Oil, Gas","Tea, Pharmaceuticals","Rice, Food Products, Corn",2899.08,450.36,54.39,-598.57,13534.14,407.59,1.07,22.7
+Canada,2023,"Robotics, Textiles, Rice","Rice, Tea, Robotics","Vehicles, Corn","Watches, Corn, Gas",619.74,1920.9,89.97,-14.16,4377.91,1438.71,7.08,35.27
+Canada,2024,"Software, Gas, Spices","Spices, Oil, Electronics","Gas, Robotics","Electronics, Coffee, Ships",52.38,1887.73,95.75,-230.97,4007.81,451.34,9.92,66.74
+Canada,2025,"Food Products, Tea, Vehicles","Chemicals, Vehicles, Robotics","Tea, Watches","Gas, Vehicles, Chemicals",1362.64,2742.31,69.55,-21.99,13381.41,656.87,12.16,13.23
+Australia,2015,"Pharmaceuticals, Coffee, Machinery","Jewelry, Machinery, Pharmaceuticals","Spices, Steel","Vehicles, Tea, Rice",721.88,2250.85,79.94,94.88,6243.63,898.54,13.02,64.71
+Australia,2016,"Machinery, Palm Oil, Food Products","Food Products, Gas, Electronics","Ships, Coffee","Pharmaceuticals, Coffee, Corn",1690.34,1263.54,85.44,-340.76,6773.91,281.77,0.11,73.66
+Australia,2017,"Jewelry, Electronics, Palm Oil","Gas, Machinery, Chemicals","Tea, Palm Oil","Ships, Oil, Vehicles",1375.52,304.1,60.32,-229.98,20071.79,959.36,9.93,0.52
+Australia,2018,"Textiles, Palm Oil, Vehicles","Food Products, Software, Spices","Software, Tea","Spices, Ships, Coffee",717.46,1348.55,79.23,-91.64,2509.16,1004.7,9.98,53.94
+Australia,2019,"Tea, Coffee, Food Products","Pharmaceuticals, Jewelry, Coffee","Textiles, Corn","Spices, Steel, Palm Oil",1204.16,787.05,67.75,73.04,19288.7,223.67,12.9,81.31
+Australia,2020,"Software, Textiles, Robotics","Jewelry, Coffee, Software","Electronics, Ships","Jewelry, Oil, Tea",1482.93,1010.42,65.95,461.6,20859.22,684.02,13.83,44.78
+Australia,2021,"Jewelry, Steel, Watches","Spices, Food Products, Corn","Steel, Machinery","Palm Oil, Pharmaceuticals, Rice",2503.78,2823.82,43.99,-541.67,12622.59,1183.35,1.64,36.18
+Australia,2022,"Oil, Textiles, Ships","Palm Oil, Machinery, Chemicals","Rice, Electronics","Food Products, Gas, Rice",1924.12,1706.04,60.06,512.35,5918.77,156.41,6.21,36.13
+Australia,2023,"Chemicals, Palm Oil, Watches","Robotics, Gas, Jewelry","Spices, Gas","Palm Oil, Software, Vehicles",219.82,1331.84,59.82,-559.5,9051.33,496.78,3.13,6.65
+Australia,2024,"Gas, Oil, Chemicals","Machinery, Corn, Gas","Tea, Machinery","Corn, Spices, Electronics",540.93,1319.53,81.63,591.4,10679.01,509.11,0.05,40.64
+Australia,2025,"Oil, Steel, Machinery","Vehicles, Electronics, Steel","Ships, Jewelry","Ships, Robotics, Tea",1322.48,2895.27,86.95,-503.84,21258.04,975.39,14.53,89.28
+Mexico,2015,"Ships, Machinery, Electronics","Palm Oil, Steel, Spices","Pharmaceuticals, Tea","Corn, Tea, Rice",1900.79,2238.18,95.3,-268.2,22582.16,566.82,3.62,45.92
+Mexico,2016,"Robotics, Steel, Coffee","Chemicals, Spices, Tea","Machinery, Spices","Steel, Tea, Pharmaceuticals",1440.38,576.07,41.77,-444.13,24273.56,1237.69,10.57,25.49
+Mexico,2017,"Spices, Coffee, Vehicles","Gas, Chemicals, Machinery","Chemicals, Tea","Software, Tea, Spices",2629.13,259.65,45.15,332.83,24987.12,1086.13,2.99,97.33
+Mexico,2018,"Oil, Palm Oil, Gas","Coffee, Robotics, Oil","Jewelry, Food Products","Robotics, Textiles, Chemicals",2120.64,1537.12,65.2,-266.91,1040.04,224.43,10.3,49.27
+Mexico,2019,"Palm Oil, Tea, Watches","Software, Rice, Jewelry","Chemicals, Software","Electronics, Software, Food Products",2416.45,2220.24,93.54,-510.82,11921.59,941.69,0.64,40.8
+Mexico,2020,"Rice, Corn, Food Products","Tea, Food Products, Robotics","Palm Oil, Coffee","Ships, Steel, Food Products",2911.42,1973.03,67.31,334.3,13035.27,1298.71,3.97,9.49
+Mexico,2021,"Steel, Corn, Food Products","Textiles, Ships, Oil","Coffee, Spices","Tea, Spices, Watches",2220.22,545.48,73.89,-24.81,20088.47,679.91,5.9,98.47
+Mexico,2022,"Steel, Gas, Ships","Tea, Robotics, Rice","Vehicles, Software","Electronics, Spices, Textiles",1319.5,1909.85,76.84,-323.54,17669.24,1055.47,5.18,73.06
+Mexico,2023,"Spices, Tea, Ships","Oil, Vehicles, Machinery","Gas, Electronics","Oil, Machinery, Rice",1148.36,418.04,63.06,100.13,22266.47,100.26,5.27,89.3
+Mexico,2024,"Ships, Spices, Steel","Coffee, Robotics, Watches","Food Products, Rice","Corn, Food Products, Robotics",1837.88,2063.22,92.54,-591.53,11772.9,1043.67,1.67,84.14
+Mexico,2025,"Spices, Steel, Palm Oil","Palm Oil, Robotics, Watches","Oil, Vehicles","Food Products, Rice, Pharmaceuticals",2866.25,88.24,94.99,109.78,13618.47,775.3,12.89,9.47
+Spain,2015,"Steel, Tea, Vehicles","Oil, Corn, Robotics","Jewelry, Machinery","Coffee, Steel, Rice",682.29,2914.09,75.18,297.51,15595.47,748.98,9.34,43.43
+Spain,2016,"Watches, Robotics, Software","Chemicals, Coffee, Palm Oil","Machinery, Spices","Gas, Robotics, Pharmaceuticals",567.34,2326.27,43.31,-405.32,24524.47,829.74,3.54,61.31
+Spain,2017,"Food Products, Electronics, Rice","Rice, Ships, Steel","Pharmaceuticals, Palm Oil","Textiles, Software, Rice",793.99,1153.92,53.45,-0.8,13228.65,577.56,14.91,31.97
+Spain,2018,"Food Products, Chemicals, Rice","Software, Coffee, Pharmaceuticals","Electronics, Food Products","Corn, Coffee, Oil",1194.05,811.04,70.49,-514.84,23983.22,506.26,12.88,68.63
+Spain,2019,"Rice, Textiles, Robotics","Textiles, Watches, Ships","Pharmaceuticals, Steel","Ships, Tea, Corn",1807.32,1256.77,81.44,579.48,12029.01,1405.02,13.7,85.23
+Spain,2020,"Ships, Jewelry, Software","Chemicals, Gas, Rice","Corn, Steel","Steel, Software, Tea",2953.04,225.03,63.11,375.68,5793.51,814.26,6.18,27.83
+Spain,2021,"Chemicals, Steel, Robotics","Food Products, Oil, Steel","Ships, Jewelry","Food Products, Steel, Ships",874.18,2225.12,52.33,-173.74,4193.92,835.72,8.03,85.0
+Spain,2022,"Corn, Rice, Pharmaceuticals","Textiles, Spices, Watches","Watches, Steel","Corn, Software, Jewelry",2548.07,310.74,94.72,172.76,12679.28,1493.15,12.54,7.55
+Spain,2023,"Watches, Palm Oil, Software","Tea, Rice, Textiles","Rice, Textiles","Corn, Vehicles, Electronics",1613.1,1950.38,80.38,-511.62,16994.63,1296.1,7.5,99.37
+Spain,2024,"Jewelry, Machinery, Robotics","Electronics, Spices, Pharmaceuticals","Vehicles, Spices","Chemicals, Watches, Electronics",1315.08,1817.58,57.15,456.97,22036.52,306.98,6.72,35.0
+Spain,2025,"Vehicles, Textiles, Palm Oil","Steel, Pharmaceuticals, Palm Oil","Machinery, Coffee","Watches, Oil, Vehicles",994.2,2668.91,95.33,-450.4,6844.43,994.53,4.72,36.65
+France,2015,"Tea, Vehicles, Pharmaceuticals","Tea, Robotics, Machinery","Corn, Pharmaceuticals","Corn, Oil, Ships",1087.77,2621.6,96.11,-71.25,3099.13,919.43,13.18,48.49
+France,2016,"Robotics, Ships, Corn","Chemicals, Rice, Pharmaceuticals","Food Products, Electronics","Rice, Pharmaceuticals, Spices",646.62,134.45,65.35,13.91,23345.03,42.32,9.35,85.4
+France,2017,"Steel, Electronics, Watches","Machinery, Food Products, Oil","Gas, Oil","Jewelry, Textiles, Tea",1415.23,2394.89,51.61,-230.21,14739.13,663.7,11.38,7.9
+France,2018,"Steel, Palm Oil, Electronics","Spices, Oil, Palm Oil","Ships, Jewelry","Robotics, Jewelry, Rice",2149.44,2387.62,41.3,54.13,7177.42,1126.05,12.72,96.19
+France,2019,"Gas, Steel, Textiles","Palm Oil, Coffee, Spices","Palm Oil, Robotics","Spices, Rice, Corn",2196.0,327.43,47.0,263.4,14372.12,1296.45,6.52,98.3
+France,2020,"Electronics, Machinery, Watches","Coffee, Watches, Software","Pharmaceuticals, Electronics","Pharmaceuticals, Coffee, Watches",636.32,2090.85,83.98,123.7,9557.87,1323.09,6.43,27.88
+France,2021,"Spices, Steel, Textiles","Oil, Spices, Palm Oil","Software, Palm Oil","Spices, Machinery, Gas",2602.47,241.68,56.42,-94.91,18707.42,319.1,4.62,99.97
+France,2022,"Chemicals, Textiles, Steel","Rice, Food Products, Corn","Robotics, Corn","Steel, Spices, Tea",69.91,1352.89,83.95,-118.32,214.08,241.51,10.25,67.84
+France,2023,"Machinery, Textiles, Pharmaceuticals","Gas, Electronics, Rice","Machinery, Watches","Chemicals, Pharmaceuticals, Palm Oil",292.54,352.28,97.59,260.01,18936.4,625.99,4.27,76.55
+France,2024,"Palm Oil, Steel, Corn","Coffee, Watches, Electronics","Textiles, Steel","Tea, Electronics, Ships",1465.91,529.61,84.19,24.11,611.7,1074.29,1.71,89.29
+France,2025,"Watches, Oil, Ships","Jewelry, Tea, Chemicals","Software, Palm Oil","Chemicals, Vehicles, Jewelry",2644.0,2038.88,75.34,284.33,21772.13,609.92,4.87,76.46
+Turkey,2015,"Food Products, Vehicles, Machinery","Watches, Oil, Textiles","Textiles, Spices","Electronics, Ships, Watches",1489.08,1634.32,44.2,-6.96,21328.65,931.53,10.99,62.17
+Turkey,2016,"Electronics, Ships, Watches","Food Products, Software, Textiles","Rice, Gas","Software, Oil, Vehicles",1824.32,557.4,75.61,-101.29,5812.21,667.95,1.84,7.26
+Turkey,2017,"Pharmaceuticals, Vehicles, Food Products","Chemicals, Palm Oil, Textiles","Jewelry, Palm Oil","Palm Oil, Oil, Food Products",1313.35,934.77,45.03,572.67,4819.39,1416.19,12.43,40.57
+Turkey,2018,"Machinery, Tea, Jewelry","Chemicals, Steel, Watches","Robotics, Food Products","Tea, Corn, Robotics",2267.03,1509.19,50.19,-514.77,7732.57,80.3,3.2,77.21
+Turkey,2019,"Coffee, Steel, Watches","Spices, Jewelry, Ships","Oil, Watches","Chemicals, Oil, Electronics",2286.48,677.04,54.49,-371.9,19771.01,475.22,9.94,74.54
+Turkey,2020,"Oil, Pharmaceuticals, Corn","Food Products, Corn, Chemicals","Robotics, Watches","Rice, Machinery, Software",1683.99,650.95,50.64,-251.74,4460.33,1451.08,1.09,68.22
+Turkey,2021,"Tea, Robotics, Chemicals","Jewelry, Oil, Machinery","Spices, Steel","Steel, Robotics, Electronics",1574.83,1447.73,84.74,231.77,16815.95,520.17,3.57,59.72
+Turkey,2022,"Jewelry, Electronics, Watches","Coffee, Machinery, Corn","Software, Jewelry","Jewelry, Oil, Tea",134.89,2000.52,82.2,-549.31,1859.63,1398.03,14.43,62.93
+Turkey,2023,"Machinery, Jewelry, Software","Tea, Jewelry, Chemicals","Steel, Palm Oil","Ships, Pharmaceuticals, Corn",1073.7,2711.27,47.05,455.06,21498.27,1311.03,2.07,81.88
+Turkey,2024,"Tea, Food Products, Ships","Rice, Machinery, Watches","Gas, Coffee","Chemicals, Ships, Vehicles",989.32,184.55,68.94,58.99,1250.38,1489.45,11.79,31.99
+Turkey,2025,"Ships, Rice, Software","Robotics, Watches, Ships","Vehicles, Jewelry","Corn, Pharmaceuticals, Food Products",2849.9,900.5,57.01,-312.4,11758.79,1466.18,7.45,52.34
+Singapore,2015,"Palm Oil, Oil, Chemicals","Textiles, Corn, Robotics","Tea, Palm Oil","Vehicles, Palm Oil, Electronics",128.03,1287.69,69.6,586.13,3191.48,595.33,14.69,65.43
+Singapore,2016,"Oil, Steel, Jewelry","Vehicles, Robotics, Ships","Corn, Software","Vehicles, Rice, Pharmaceuticals",1138.06,1107.8,81.47,38.4,7004.78,647.71,1.62,59.89
+Singapore,2017,"Oil, Pharmaceuticals, Textiles","Coffee, Software, Machinery","Jewelry, Food Products","Corn, Jewelry, Watches",1960.86,1758.61,40.45,-399.96,12625.5,952.59,2.49,6.0
+Singapore,2018,"Coffee, Palm Oil, Steel","Jewelry, Robotics, Electronics","Food Products, Palm Oil","Food Products, Jewelry, Software",631.34,328.83,50.9,508.57,12144.6,1376.3,5.94,98.24
+Singapore,2019,"Machinery, Robotics, Textiles","Robotics, Software, Ships","Steel, Gas","Tea, Robotics, Spices",1376.36,2046.97,73.74,41.95,7700.31,118.8,5.25,5.43
+Singapore,2020,"Coffee, Machinery, Pharmaceuticals","Spices, Tea, Machinery","Ships, Vehicles","Ships, Watches, Chemicals",1599.86,314.63,48.98,-44.52,24763.46,914.06,5.34,50.05
+Singapore,2021,"Food Products, Spices, Palm Oil","Jewelry, Chemicals, Robotics","Palm Oil, Ships","Ships, Machinery, Corn",730.95,2964.51,48.4,222.95,548.47,1240.55,10.3,46.22
+Singapore,2022,"Gas, Corn, Spices","Rice, Textiles, Pharmaceuticals","Spices, Chemicals","Steel, Watches, Rice",1319.73,2336.98,54.57,441.43,24521.27,246.81,0.13,47.85
+Singapore,2023,"Oil, Vehicles, Spices","Palm Oil, Ships, Pharmaceuticals","Rice, Coffee","Steel, Chemicals, Ships",1113.78,1341.15,77.53,-80.09,2678.94,799.93,5.43,18.78
+Singapore,2024,"Coffee, Textiles, Gas","Gas, Textiles, Food Products","Pharmaceuticals, Spices","Palm Oil, Machinery, Chemicals",175.21,2955.82,59.18,51.17,5720.82,811.8,6.73,74.33
+Singapore,2025,"Ships, Gas, Chemicals","Chemicals, Robotics, Ships","Watches, Textiles","Textiles, Rice, Jewelry",2987.01,1021.62,50.2,396.31,2334.44,197.38,8.93,12.52
+UAE,2015,"Ships, Gas, Software","Steel, Tea, Chemicals","Software, Pharmaceuticals","Vehicles, Coffee, Corn",758.42,1491.96,66.59,238.72,3237.15,960.25,9.94,16.88
+UAE,2016,"Food Products, Machinery, Pharmaceuticals","Coffee, Machinery, Software","Food Products, Software","Food Products, Oil, Palm Oil",1067.4,2400.62,81.37,-105.21,6314.68,588.66,4.65,36.6
+UAE,2017,"Food Products, Watches, Rice","Spices, Jewelry, Watches","Spices, Chemicals","Electronics, Rice, Coffee",2899.99,1496.49,61.97,596.65,21361.37,1153.3,1.66,79.66
+UAE,2018,"Food Products, Steel, Jewelry","Chemicals, Rice, Electronics","Electronics, Spices","Chemicals, Coffee, Ships",2527.56,559.2,87.04,-530.74,1149.67,1414.26,4.62,6.42
+UAE,2019,"Machinery, Ships, Electronics","Corn, Spices, Chemicals","Steel, Food Products","Pharmaceuticals, Jewelry, Palm Oil",1887.35,2786.59,69.32,-572.68,23936.74,702.08,11.09,79.91
+UAE,2020,"Machinery, Electronics, Software","Electronics, Textiles, Watches","Chemicals, Watches","Robotics, Jewelry, Palm Oil",2182.68,1794.29,42.68,426.84,9739.17,957.07,7.42,88.98
+UAE,2021,"Vehicles, Watches, Rice","Spices, Food Products, Textiles","Rice, Textiles","Jewelry, Textiles, Vehicles",435.93,2517.22,68.86,405.68,22987.83,521.5,9.04,62.87
+UAE,2022,"Electronics, Tea, Palm Oil","Robotics, Chemicals, Tea","Pharmaceuticals, Palm Oil","Oil, Tea, Watches",2688.9,854.75,55.23,-545.13,1109.6,297.06,1.31,34.28
+UAE,2023,"Coffee, Ships, Pharmaceuticals","Corn, Spices, Ships","Software, Rice","Pharmaceuticals, Food Products, Software",865.72,1847.72,92.63,519.05,6017.76,1288.11,13.18,13.62
+UAE,2024,"Gas, Tea, Software","Machinery, Oil, Jewelry","Jewelry, Textiles","Ships, Pharmaceuticals, Oil",553.84,61.06,96.3,-4.74,20603.92,1235.93,5.63,74.02
+UAE,2025,"Oil, Spices, Electronics","Watches, Rice, Ships","Pharmaceuticals, Electronics","Gas, Steel, Corn",1796.23,1639.43,52.26,-389.32,4537.15,634.31,4.49,16.63
+South Africa,2015,"Food Products, Spices, Jewelry","Coffee, Steel, Corn","Jewelry, Oil","Robotics, Oil, Machinery",2692.51,548.68,59.46,490.32,10648.8,832.29,3.78,67.16
+South Africa,2016,"Robotics, Jewelry, Ships","Gas, Tea, Robotics","Vehicles, Machinery","Coffee, Vehicles, Corn",2400.49,2132.84,46.9,-447.06,1516.66,103.03,14.88,44.04
+South Africa,2017,"Tea, Ships, Robotics","Food Products, Textiles, Watches","Steel, Rice","Jewelry, Palm Oil, Steel",1644.38,2838.66,94.9,-447.72,4201.9,668.56,7.67,59.28
+South Africa,2018,"Oil, Tea, Steel","Watches, Tea, Electronics","Coffee, Vehicles","Food Products, Spices, Tea",2540.66,1260.75,91.49,175.6,18222.53,517.04,2.01,82.17
+South Africa,2019,"Watches, Machinery, Rice","Machinery, Gas, Ships","Rice, Gas","Ships, Steel, Palm Oil",1283.36,1118.74,51.28,-360.44,20755.72,1365.97,7.57,26.28
+South Africa,2020,"Oil, Ships, Food Products","Chemicals, Palm Oil, Pharmaceuticals","Textiles, Robotics","Coffee, Textiles, Electronics",1745.66,2764.89,90.71,247.35,918.29,1482.37,12.21,92.9
+South Africa,2021,"Chemicals, Pharmaceuticals, Food Products","Gas, Tea, Ships","Ships, Robotics","Coffee, Machinery, Steel",2261.4,2932.8,68.39,-34.35,5738.62,77.73,0.76,60.29
+South Africa,2022,"Chemicals, Palm Oil, Pharmaceuticals","Tea, Electronics, Vehicles","Gas, Textiles","Tea, Gas, Food Products",1475.8,2601.97,78.75,113.44,1233.3,1102.69,3.76,23.14
+South Africa,2023,"Software, Spices, Watches","Electronics, Pharmaceuticals, Rice","Chemicals, Machinery","Software, Corn, Gas",2607.23,1715.78,69.07,-157.96,11634.0,1078.04,5.69,79.26
+South Africa,2024,"Watches, Coffee, Electronics","Steel, Tea, Coffee","Textiles, Software","Electronics, Rice, Vehicles",2728.02,175.66,41.4,-213.04,5070.54,24.47,4.27,4.92
+South Africa,2025,"Gas, Steel, Palm Oil","Corn, Rice, Food Products","Steel, Vehicles","Robotics, Palm Oil, Oil",893.35,572.32,71.73,-328.68,9864.56,436.88,14.14,56.29
+Vietnam,2015,"Rice, Palm Oil, Watches","Tea, Chemicals, Vehicles","Oil, Gas","Corn, Tea, Chemicals",1833.35,485.78,57.38,-158.07,13479.16,389.63,14.21,59.34
+Vietnam,2016,"Watches, Ships, Machinery","Ships, Electronics, Palm Oil","Watches, Tea","Oil, Spices, Jewelry",2226.53,1756.02,40.1,-388.79,12457.64,507.33,8.55,90.64
+Vietnam,2017,"Spices, Robotics, Machinery","Robotics, Chemicals, Oil","Tea, Corn","Food Products, Vehicles, Machinery",1135.43,426.01,91.23,-519.16,13570.24,688.4,5.34,41.61
+Vietnam,2018,"Jewelry, Textiles, Watches","Pharmaceuticals, Textiles, Chemicals","Textiles, Rice","Food Products, Gas, Corn",2871.91,270.08,58.64,71.69,23946.09,1091.02,14.17,57.83
+Vietnam,2019,"Software, Corn, Machinery","Pharmaceuticals, Food Products, Palm Oil","Oil, Spices","Jewelry, Ships, Corn",1896.96,1467.79,82.39,-84.9,10290.0,1203.07,3.47,50.26
+Vietnam,2020,"Gas, Vehicles, Rice","Tea, Machinery, Spices","Software, Steel","Spices, Corn, Watches",2868.87,2464.05,93.55,-100.55,18720.5,21.08,12.52,58.8
+Vietnam,2021,"Textiles, Vehicles, Tea","Textiles, Jewelry, Chemicals","Watches, Oil","Vehicles, Software, Coffee",1855.89,934.07,88.73,577.68,14496.05,774.69,10.29,39.32
+Vietnam,2022,"Software, Ships, Jewelry","Corn, Tea, Pharmaceuticals","Spices, Jewelry","Watches, Pharmaceuticals, Robotics",2590.53,2528.23,86.85,42.9,10227.78,1476.42,6.69,76.45
+Vietnam,2023,"Palm Oil, Spices, Watches","Oil, Coffee, Spices","Pharmaceuticals, Rice","Gas, Machinery, Electronics",544.72,2982.69,52.49,-449.77,24340.9,1185.51,2.81,48.2
+Vietnam,2024,"Spices, Oil, Watches","Oil, Robotics, Ships","Jewelry, Ships","Oil, Palm Oil, Steel",124.78,2500.68,69.6,-58.56,19618.95,195.07,8.65,98.09
+Vietnam,2025,"Palm Oil, Ships, Pharmaceuticals","Software, Machinery, Steel","Watches, Robotics","Electronics, Robotics, Oil",179.13,2106.95,51.94,-26.24,15608.3,465.31,4.35,27.14
+Thailand,2015,"Chemicals, Machinery, Spices","Software, Gas, Steel","Software, Gas","Jewelry, Tea, Watches",1300.04,1835.96,99.96,-521.3,13366.49,76.07,8.89,42.79
+Thailand,2016,"Ships, Chemicals, Tea","Corn, Robotics, Oil","Electronics, Watches","Ships, Electronics, Chemicals",1573.79,1756.67,49.66,-455.64,9605.84,917.19,14.06,78.28
+Thailand,2017,"Watches, Tea, Electronics","Ships, Electronics, Robotics","Coffee, Vehicles","Oil, Gas, Ships",883.78,2461.93,43.24,-389.51,2335.22,1373.3,3.68,81.2
+Thailand,2018,"Electronics, Spices, Gas","Textiles, Food Products, Chemicals","Palm Oil, Spices","Tea, Corn, Food Products",182.9,2141.89,72.53,-558.45,22808.55,404.64,0.28,25.08
+Thailand,2019,"Chemicals, Rice, Vehicles","Pharmaceuticals, Vehicles, Robotics","Oil, Watches","Chemicals, Textiles, Pharmaceuticals",2558.71,560.53,87.9,577.59,7892.23,689.62,4.29,2.89
+Thailand,2020,"Steel, Palm Oil, Tea","Ships, Machinery, Chemicals","Steel, Electronics","Watches, Pharmaceuticals, Gas",1637.85,2884.14,59.28,320.44,570.72,720.69,6.57,18.65
+Thailand,2021,"Spices, Steel, Jewelry","Ships, Tea, Jewelry","Rice, Palm Oil","Rice, Steel, Corn",1621.71,1255.1,52.74,-381.21,1370.78,63.74,1.95,56.46
+Thailand,2022,"Palm Oil, Steel, Watches","Watches, Pharmaceuticals, Machinery","Food Products, Corn","Vehicles, Palm Oil, Rice",2267.43,2234.98,66.43,124.12,353.73,815.64,12.73,9.19
+Thailand,2023,"Spices, Tea, Coffee","Software, Watches, Steel","Steel, Machinery","Food Products, Jewelry, Steel",2917.75,1853.76,81.72,-240.57,23483.56,1439.28,7.27,60.59
+Thailand,2024,"Chemicals, Palm Oil, Spices","Gas, Vehicles, Pharmaceuticals","Robotics, Corn","Vehicles, Pharmaceuticals, Rice",2597.47,1701.53,59.55,119.45,9150.94,419.58,1.26,58.26
+Thailand,2025,"Rice, Gas, Spices","Coffee, Vehicles, Robotics","Chemicals, Coffee","Vehicles, Pharmaceuticals, Ships",2571.06,1234.45,62.73,180.92,14640.49,549.25,9.94,62.87
+Malaysia,2015,"Gas, Rice, Chemicals","Ships, Watches, Robotics","Electronics, Coffee","Machinery, Spices, Jewelry",821.97,72.5,72.96,-512.65,8350.05,799.46,11.34,64.49
+Malaysia,2016,"Jewelry, Ships, Robotics","Coffee, Watches, Spices","Machinery, Spices","Robotics, Ships, Tea",2794.5,1270.83,53.39,224.94,2109.23,513.07,4.42,64.69
+Malaysia,2017,"Chemicals, Textiles, Pharmaceuticals","Spices, Electronics, Tea","Food Products, Robotics","Jewelry, Pharmaceuticals, Gas",2289.87,2226.23,58.12,-71.33,23502.86,239.19,3.46,60.34
+Malaysia,2018,"Spices, Coffee, Ships","Coffee, Jewelry, Tea","Jewelry, Gas","Textiles, Corn, Chemicals",1990.26,1236.01,99.74,-76.81,14535.85,1428.79,3.41,81.08
+Malaysia,2019,"Steel, Coffee, Jewelry","Vehicles, Watches, Oil","Vehicles, Electronics","Spices, Pharmaceuticals, Food Products",2962.25,1191.97,87.46,-5.63,7846.35,199.0,5.08,56.3
+Malaysia,2020,"Oil, Software, Coffee","Gas, Ships, Chemicals","Jewelry, Spices","Machinery, Corn, Gas",2917.13,2568.69,56.15,221.02,16838.39,1434.38,0.68,44.8
+Malaysia,2021,"Chemicals, Software, Steel","Watches, Oil, Robotics","Jewelry, Food Products","Robotics, Vehicles, Oil",1889.97,714.0,72.23,536.95,7693.41,1402.42,3.16,69.91
+Malaysia,2022,"Food Products, Software, Steel","Textiles, Gas, Tea","Coffee, Electronics","Jewelry, Electronics, Tea",295.2,1769.08,57.93,-239.68,4973.67,496.56,2.79,64.99
+Malaysia,2023,"Jewelry, Coffee, Palm Oil","Tea, Jewelry, Ships","Pharmaceuticals, Electronics","Electronics, Rice, Jewelry",2781.19,1913.5,98.17,465.84,22674.66,1072.1,8.81,92.89
+Malaysia,2024,"Steel, Gas, Coffee","Rice, Machinery, Coffee","Chemicals, Software","Pharmaceuticals, Chemicals, Robotics",2293.29,2189.78,40.3,192.57,19722.9,194.24,12.75,80.09
+Malaysia,2025,"Rice, Textiles, Corn","Watches, Electronics, Chemicals","Jewelry, Tea","Ships, Corn, Electronics",97.15,2287.96,54.94,-0.56,11383.02,1440.97,7.22,68.39
+Argentina,2015,"Vehicles, Pharmaceuticals, Machinery","Tea, Vehicles, Robotics","Rice, Gas","Chemicals, Oil, Pharmaceuticals",2485.3,1879.89,46.05,517.55,696.81,1477.17,4.11,32.49
+Argentina,2016,"Gas, Corn, Watches","Pharmaceuticals, Gas, Food Products","Ships, Tea","Ships, Jewelry, Pharmaceuticals",2409.21,1379.5,49.5,-504.69,12165.26,1303.72,11.47,1.36
+Argentina,2017,"Textiles, Coffee, Electronics","Watches, Coffee, Spices","Spices, Pharmaceuticals","Ships, Steel, Watches",2314.49,127.15,42.13,22.74,15039.46,67.48,4.32,6.53
+Argentina,2018,"Rice, Watches, Tea","Rice, Palm Oil, Steel","Food Products, Steel","Textiles, Spices, Steel",2898.54,1652.6,63.13,-469.78,9016.73,516.14,1.87,68.07
+Argentina,2019,"Software, Rice, Corn","Jewelry, Steel, Oil","Spices, Vehicles","Gas, Food Products, Ships",218.84,2489.06,97.44,170.74,4877.53,1491.15,11.64,98.42
+Argentina,2020,"Electronics, Spices, Textiles","Coffee, Spices, Ships","Vehicles, Spices","Electronics, Jewelry, Pharmaceuticals",1547.48,2572.81,81.75,-420.36,10303.15,712.65,7.93,98.94
+Argentina,2021,"Rice, Food Products, Spices","Gas, Food Products, Ships","Software, Food Products","Machinery, Jewelry, Watches",636.17,274.33,76.92,62.6,10816.78,986.78,11.58,85.47
+Argentina,2022,"Rice, Food Products, Oil","Pharmaceuticals, Food Products, Spices","Pharmaceuticals, Rice","Coffee, Ships, Jewelry",1696.44,2293.26,64.64,598.73,16792.15,1261.96,2.97,17.92
+Argentina,2023,"Software, Electronics, Tea","Pharmaceuticals, Coffee, Machinery","Gas, Palm Oil","Vehicles, Spices, Food Products",1581.23,1647.79,92.24,-165.13,10053.95,931.46,7.81,21.36
+Argentina,2024,"Robotics, Tea, Textiles","Coffee, Robotics, Gas","Textiles, Spices","Coffee, Robotics, Textiles",2125.93,2443.11,53.06,236.37,4979.19,1407.73,9.33,1.56
+Argentina,2025,"Textiles, Vehicles, Steel","Corn, Electronics, Software","Watches, Textiles","Vehicles, Robotics, Tea",2286.51,159.34,60.93,4.81,12831.87,1212.43,5.66,44.39
+Egypt,2015,"Vehicles, Textiles, Rice","Tea, Robotics, Software","Oil, Gas","Pharmaceuticals, Corn, Textiles",450.94,2515.53,68.48,-310.14,14106.61,605.02,14.97,45.2
+Egypt,2016,"Machinery, Tea, Jewelry","Watches, Rice, Food Products","Rice, Pharmaceuticals","Steel, Electronics, Pharmaceuticals",2720.52,1288.01,40.51,306.19,19410.05,253.48,3.16,47.35
+Egypt,2017,"Textiles, Ships, Vehicles","Robotics, Ships, Rice","Tea, Rice","Oil, Tea, Robotics",2467.31,2765.88,74.51,234.48,9173.21,1353.2,9.18,93.36
+Egypt,2018,"Robotics, Vehicles, Coffee","Ships, Pharmaceuticals, Corn","Corn, Ships","Robotics, Gas, Food Products",124.53,2961.26,52.09,516.33,19633.31,1337.53,9.13,46.76
+Egypt,2019,"Electronics, Ships, Pharmaceuticals","Rice, Pharmaceuticals, Jewelry","Oil, Gas","Rice, Gas, Corn",2337.34,56.62,85.38,-104.68,118.11,1098.29,11.19,44.89
+Egypt,2020,"Chemicals, Robotics, Oil","Oil, Watches, Tea","Pharmaceuticals, Textiles","Jewelry, Watches, Textiles",156.44,2371.07,97.93,-230.1,18692.1,588.78,5.41,9.64
+Egypt,2021,"Electronics, Chemicals, Gas","Spices, Oil, Software","Jewelry, Textiles","Spices, Electronics, Watches",1835.54,2004.79,57.9,-111.37,7139.28,1021.96,12.25,62.5
+Egypt,2022,"Steel, Food Products, Jewelry","Machinery, Spices, Pharmaceuticals","Rice, Food Products","Spices, Steel, Watches",2678.95,2536.4,74.12,-280.41,1012.42,472.98,1.52,40.93
+Egypt,2023,"Coffee, Jewelry, Rice","Robotics, Textiles, Gas","Vehicles, Corn","Steel, Vehicles, Electronics",841.71,1890.69,51.68,134.35,21572.2,292.13,8.62,64.26
+Egypt,2024,"Electronics, Ships, Chemicals","Spices, Gas, Oil","Coffee, Corn","Software, Food Products, Corn",1591.03,1440.16,47.46,312.73,18495.88,1196.87,1.21,40.32
+Egypt,2025,"Machinery, Software, Rice","Robotics, Palm Oil, Coffee","Steel, Jewelry","Textiles, Spices, Palm Oil",1749.04,575.14,81.48,-239.63,23724.75,1462.29,9.02,52.53
+Norway,2015,"Coffee, Jewelry, Tea","Palm Oil, Robotics, Oil","Oil, Tea","Pharmaceuticals, Machinery, Software",549.42,2313.76,61.25,-191.33,4450.97,1337.01,3.6,64.69
+Norway,2016,"Ships, Robotics, Pharmaceuticals","Steel, Jewelry, Machinery","Gas, Spices","Gas, Watches, Jewelry",227.41,2594.39,59.78,68.29,3861.28,56.63,6.66,42.36
+Norway,2017,"Vehicles, Ships, Gas","Chemicals, Tea, Corn","Watches, Pharmaceuticals","Coffee, Machinery, Jewelry",552.71,2544.01,45.11,398.91,3489.77,40.26,11.92,97.58
+Norway,2018,"Coffee, Corn, Oil","Corn, Food Products, Rice","Chemicals, Steel","Chemicals, Ships, Software",2106.92,266.69,52.34,-318.66,10826.38,565.84,9.9,80.33
+Norway,2019,"Machinery, Pharmaceuticals, Rice","Tea, Spices, Textiles","Vehicles, Palm Oil","Robotics, Oil, Electronics",602.06,703.48,75.56,175.6,4969.84,1433.83,7.36,79.84
+Norway,2020,"Coffee, Electronics, Watches","Oil, Machinery, Software","Robotics, Vehicles","Tea, Electronics, Palm Oil",147.59,251.29,65.36,-582.61,17840.01,1291.96,6.76,11.02
+Norway,2021,"Chemicals, Textiles, Ships","Coffee, Electronics, Corn","Jewelry, Steel","Machinery, Palm Oil, Oil",1778.42,1048.46,79.89,153.22,1918.38,600.11,11.4,57.88
+Norway,2022,"Spices, Steel, Coffee","Gas, Vehicles, Chemicals","Food Products, Tea","Coffee, Food Products, Electronics",1189.56,553.3,71.5,526.43,14191.98,821.79,10.39,67.84
+Norway,2023,"Electronics, Ships, Watches","Textiles, Corn, Vehicles","Jewelry, Coffee","Spices, Textiles, Palm Oil",758.67,2460.52,47.89,-582.57,7154.51,352.82,2.03,93.13
+Norway,2024,"Robotics, Ships, Food Products","Palm Oil, Steel, Spices","Steel, Jewelry","Machinery, Corn, Food Products",2667.89,2593.56,92.89,-411.84,11777.58,79.84,6.54,26.62
+Norway,2025,"Steel, Rice, Pharmaceuticals","Electronics, Machinery, Jewelry","Food Products, Pharmaceuticals","Jewelry, Corn, Watches",2998.78,303.89,87.76,244.31,4377.55,653.11,9.52,61.54
+Sweden,2015,"Electronics, Software, Watches","Steel, Robotics, Jewelry","Jewelry, Vehicles","Oil, Coffee, Pharmaceuticals",685.12,1916.03,87.17,254.48,13839.36,591.86,12.25,41.14
+Sweden,2016,"Vehicles, Watches, Gas","Palm Oil, Gas, Spices","Watches, Corn","Pharmaceuticals, Spices, Ships",364.55,1565.48,93.73,329.79,20232.99,1385.37,12.86,51.9
+Sweden,2017,"Coffee, Pharmaceuticals, Vehicles","Textiles, Ships, Oil","Chemicals, Rice","Robotics, Food Products, Machinery",1081.08,2644.81,50.6,149.61,16060.92,1107.14,4.19,26.62
+Sweden,2018,"Tea, Coffee, Machinery","Steel, Oil, Vehicles","Ships, Rice","Tea, Pharmaceuticals, Chemicals",2381.61,572.23,81.8,-41.1,19617.19,478.76,13.22,61.58
+Sweden,2019,"Software, Gas, Jewelry","Steel, Tea, Gas","Pharmaceuticals, Steel","Food Products, Watches, Gas",2869.5,2676.36,55.64,-261.63,423.16,1221.67,7.77,13.92
+Sweden,2020,"Food Products, Coffee, Jewelry","Gas, Tea, Steel","Ships, Food Products","Coffee, Vehicles, Chemicals",383.09,2654.65,96.96,428.14,23080.14,301.08,11.34,56.08
+Sweden,2021,"Food Products, Gas, Coffee","Gas, Textiles, Robotics","Corn, Jewelry","Chemicals, Steel, Electronics",2073.98,1729.84,70.12,364.91,7732.69,534.63,3.55,29.66
+Sweden,2022,"Rice, Watches, Tea","Coffee, Steel, Machinery","Pharmaceuticals, Ships","Electronics, Food Products, Vehicles",2386.53,84.52,85.76,-75.41,16199.93,1081.38,10.18,84.38
+Sweden,2023,"Food Products, Steel, Software","Ships, Tea, Textiles","Oil, Food Products","Gas, Pharmaceuticals, Robotics",1262.38,2229.56,54.65,-533.22,24909.96,1248.86,2.52,48.42
+Sweden,2024,"Oil, Palm Oil, Electronics","Gas, Pharmaceuticals, Corn","Software, Tea","Robotics, Software, Chemicals",2352.1,732.31,40.24,554.33,12555.01,231.81,5.22,9.08
+Sweden,2025,"Watches, Rice, Chemicals","Gas, Electronics, Watches","Steel, Gas","Palm Oil, Software, Rice",2044.83,1988.15,97.85,74.86,5672.63,47.27,2.29,42.46
+Poland,2015,"Jewelry, Gas, Vehicles","Textiles, Software, Chemicals","Robotics, Gas","Palm Oil, Corn, Steel",249.94,1143.68,63.23,585.15,6379.42,778.97,6.3,69.55
+Poland,2016,"Steel, Machinery, Electronics","Food Products, Coffee, Ships","Software, Electronics","Jewelry, Textiles, Software",243.15,140.38,43.98,-494.52,22226.82,116.46,5.79,13.13
+Poland,2017,"Food Products, Machinery, Corn","Rice, Textiles, Corn","Robotics, Tea","Coffee, Steel, Gas",1450.22,207.72,62.09,-354.25,24581.43,192.15,5.91,96.68
+Poland,2018,"Vehicles, Coffee, Machinery","Software, Steel, Oil","Coffee, Palm Oil","Pharmaceuticals, Gas, Coffee",518.28,2818.36,57.76,-89.32,18890.36,373.83,13.94,49.69
+Poland,2019,"Watches, Robotics, Steel","Steel, Corn, Textiles","Textiles, Coffee","Tea, Ships, Watches",1087.24,2715.62,90.79,-297.85,1704.35,46.11,3.35,33.74
+Poland,2020,"Gas, Machinery, Robotics","Corn, Electronics, Coffee","Food Products, Watches","Corn, Oil, Ships",2314.59,2533.65,69.04,328.42,236.68,724.86,2.08,13.3
+Poland,2021,"Pharmaceuticals, Corn, Robotics","Steel, Food Products, Tea","Chemicals, Electronics","Steel, Corn, Pharmaceuticals",331.55,1182.75,57.69,-519.09,13820.34,793.59,3.83,88.61
+Poland,2022,"Jewelry, Oil, Coffee","Rice, Tea, Vehicles","Robotics, Corn","Coffee, Palm Oil, Oil",2724.99,1364.05,83.44,-415.44,18712.32,520.87,1.02,8.98
+Poland,2023,"Software, Tea, Rice","Ships, Pharmaceuticals, Watches","Rice, Ships","Steel, Ships, Coffee",2541.65,218.2,63.08,-203.85,8983.71,1306.42,8.27,64.12
+Poland,2024,"Corn, Watches, Palm Oil","Steel, Food Products, Coffee","Corn, Food Products","Food Products, Software, Spices",2452.15,2654.22,64.24,588.62,2758.21,1057.24,11.9,74.57
+Poland,2025,"Ships, Gas, Steel","Spices, Ships, Textiles","Machinery, Corn","Food Products, Corn, Electronics",2669.55,1586.95,64.79,397.87,10393.61,681.88,5.89,38.66
+Belgium,2015,"Electronics, Robotics, Machinery","Machinery, Gas, Pharmaceuticals","Software, Steel","Rice, Software, Chemicals",1521.45,1403.31,81.38,-363.21,4517.92,24.18,12.47,61.58
+Belgium,2016,"Pharmaceuticals, Food Products, Machinery","Jewelry, Oil, Spices","Corn, Oil","Vehicles, Coffee, Software",2123.75,2483.46,49.78,-271.35,12765.15,524.26,1.81,1.69
+Belgium,2017,"Rice, Vehicles, Food Products","Coffee, Steel, Spices","Chemicals, Ships","Coffee, Steel, Robotics",1326.14,2158.24,64.22,-306.04,20633.79,913.35,14.93,50.41
+Belgium,2018,"Food Products, Tea, Rice","Corn, Gas, Steel","Food Products, Machinery","Robotics, Jewelry, Machinery",1102.1,1963.94,53.9,214.56,14942.62,1479.23,14.04,38.26
+Belgium,2019,"Palm Oil, Coffee, Vehicles","Software, Jewelry, Textiles","Gas, Jewelry","Rice, Palm Oil, Ships",540.33,142.52,57.79,-95.24,3446.06,1381.06,1.28,16.27
+Belgium,2020,"Corn, Watches, Steel","Software, Chemicals, Pharmaceuticals","Watches, Robotics","Jewelry, Corn, Rice",2051.73,205.69,46.88,326.5,14685.87,339.05,12.07,60.58
+Belgium,2021,"Pharmaceuticals, Steel, Robotics","Pharmaceuticals, Oil, Chemicals","Ships, Oil","Steel, Spices, Food Products",1625.96,648.42,59.73,418.29,19350.62,1281.62,3.12,52.02
+Belgium,2022,"Vehicles, Ships, Machinery","Software, Corn, Watches","Jewelry, Coffee","Gas, Coffee, Machinery",1480.0,972.97,83.44,-386.62,20988.71,548.89,0.45,80.98
+Belgium,2023,"Textiles, Tea, Robotics","Tea, Gas, Vehicles","Rice, Palm Oil","Software, Electronics, Coffee",1707.24,122.7,97.74,-592.05,23600.31,278.84,13.89,98.04
+Belgium,2024,"Electronics, Food Products, Tea","Jewelry, Vehicles, Textiles","Machinery, Food Products","Rice, Software, Pharmaceuticals",981.14,1809.5,79.21,-238.87,5106.71,864.05,5.75,69.24
+Belgium,2025,"Pharmaceuticals, Watches, Textiles","Steel, Food Products, Oil","Ships, Food Products","Steel, Palm Oil, Watches",2131.1,131.78,90.22,388.63,17627.1,43.49,1.95,90.11
+Denmark,2015,"Food Products, Oil, Palm Oil","Watches, Machinery, Coffee","Electronics, Chemicals","Software, Textiles, Rice",947.71,1594.51,83.89,8.8,24517.16,735.86,8.28,71.31
+Denmark,2016,"Palm Oil, Textiles, Jewelry","Robotics, Ships, Vehicles","Chemicals, Spices","Rice, Machinery, Robotics",1958.74,1321.33,46.47,487.6,10658.21,576.53,6.09,73.69
+Denmark,2017,"Ships, Corn, Chemicals","Textiles, Robotics, Jewelry","Jewelry, Pharmaceuticals","Coffee, Rice, Oil",2517.84,1735.39,82.18,-542.66,7321.13,1398.9,11.38,24.96
+Denmark,2018,"Software, Rice, Ships","Spices, Oil, Tea","Robotics, Pharmaceuticals","Steel, Pharmaceuticals, Food Products",2768.36,601.79,65.81,51.62,5598.29,105.06,0.5,52.32
+Denmark,2019,"Pharmaceuticals, Watches, Oil","Jewelry, Coffee, Food Products","Palm Oil, Pharmaceuticals","Corn, Steel, Ships",213.9,2214.73,86.21,-467.84,3410.06,762.06,2.57,84.16
+Denmark,2020,"Textiles, Food Products, Tea","Corn, Textiles, Tea","Pharmaceuticals, Software","Electronics, Watches, Oil",1310.75,675.12,87.55,498.41,22855.16,684.51,2.8,64.77
+Denmark,2021,"Gas, Software, Watches","Jewelry, Vehicles, Ships","Corn, Ships","Chemicals, Watches, Ships",2949.68,184.87,50.71,399.8,16271.48,28.33,13.35,25.56
+Denmark,2022,"Electronics, Palm Oil, Spices","Rice, Corn, Robotics","Corn, Chemicals","Oil, Rice, Gas",2773.87,1061.4,42.91,175.29,24182.65,779.25,9.92,56.99
+Denmark,2023,"Textiles, Steel, Spices","Software, Food Products, Vehicles","Pharmaceuticals, Textiles","Electronics, Gas, Ships",2164.84,63.14,53.57,85.4,4215.3,775.31,10.84,41.88
+Denmark,2024,"Chemicals, Watches, Ships","Food Products, Spices, Chemicals","Palm Oil, Pharmaceuticals","Oil, Spices, Pharmaceuticals",2834.37,2533.88,93.54,450.03,9941.03,287.72,2.09,49.86
+Denmark,2025,"Food Products, Robotics, Watches","Jewelry, Software, Food Products","Corn, Software","Palm Oil, Vehicles, Software",856.41,1795.3,40.6,-428.99,17348.59,1020.33,14.69,74.73
+Philippines,2015,"Jewelry, Spices, Ships","Gas, Coffee, Software","Gas, Robotics","Vehicles, Jewelry, Textiles",1263.0,2834.89,72.12,527.42,22404.99,1481.13,9.73,48.78
+Philippines,2016,"Corn, Spices, Electronics","Pharmaceuticals, Oil, Food Products","Electronics, Coffee","Steel, Corn, Coffee",1861.51,233.37,83.91,356.01,17393.13,1398.09,11.2,11.91
+Philippines,2017,"Tea, Pharmaceuticals, Steel","Palm Oil, Electronics, Spices","Jewelry, Coffee","Gas, Rice, Vehicles",2808.31,2335.47,65.92,288.74,2475.54,357.37,12.73,46.56
+Philippines,2018,"Gas, Pharmaceuticals, Spices","Rice, Textiles, Ships","Palm Oil, Tea","Electronics, Coffee, Corn",993.67,1699.61,80.43,-337.65,374.41,433.82,12.44,59.99
+Philippines,2019,"Corn, Tea, Food Products","Tea, Spices, Electronics","Software, Watches","Coffee, Watches, Food Products",305.68,2410.0,80.66,72.62,3395.32,836.84,6.02,93.32
+Philippines,2020,"Electronics, Pharmaceuticals, Tea","Software, Machinery, Textiles","Tea, Ships","Machinery, Oil, Tea",1196.67,502.19,87.5,121.81,9179.26,1323.1,11.81,71.44
+Philippines,2021,"Food Products, Software, Robotics","Coffee, Jewelry, Electronics","Vehicles, Gas","Pharmaceuticals, Vehicles, Software",1365.1,327.03,43.43,588.34,22048.71,519.4,11.97,15.86
+Philippines,2022,"Machinery, Tea, Software","Palm Oil, Textiles, Robotics","Food Products, Gas","Pharmaceuticals, Textiles, Palm Oil",1655.86,810.79,74.12,-231.23,18056.2,512.35,5.65,92.0
+Philippines,2023,"Coffee, Gas, Oil","Electronics, Corn, Chemicals","Tea, Rice","Steel, Food Products, Software",1411.11,443.57,53.96,-78.58,775.93,726.13,5.2,33.7
+Philippines,2024,"Jewelry, Oil, Corn","Oil, Watches, Rice","Robotics, Vehicles","Electronics, Watches, Oil",168.65,2401.14,40.33,34.14,8534.94,1143.14,10.07,65.29
+Philippines,2025,"Chemicals, Food Products, Robotics","Machinery, Electronics, Vehicles","Jewelry, Chemicals","Steel, Coffee, Gas",378.28,2365.79,55.82,176.11,16904.75,1051.19,10.06,5.74
+Pakistan,2015,"Vehicles, Watches, Jewelry","Rice, Electronics, Tea","Pharmaceuticals, Jewelry","Rice, Software, Watches",2198.19,2095.8,64.47,311.56,4530.9,1158.65,3.59,84.22
+Pakistan,2016,"Electronics, Robotics, Gas","Gas, Coffee, Software","Food Products, Corn","Steel, Pharmaceuticals, Ships",1944.98,740.38,45.65,-596.97,3396.92,1231.97,11.21,21.21
+Pakistan,2017,"Chemicals, Vehicles, Ships","Electronics, Machinery, Corn","Pharmaceuticals, Jewelry","Palm Oil, Oil, Coffee",252.86,224.52,60.7,-555.39,14205.14,880.54,9.35,58.85
+Pakistan,2018,"Pharmaceuticals, Palm Oil, Electronics","Tea, Gas, Chemicals","Rice, Oil","Coffee, Jewelry, Gas",2851.6,682.74,65.96,-200.44,21351.93,720.25,12.44,8.79
+Pakistan,2019,"Software, Oil, Steel","Electronics, Palm Oil, Coffee","Steel, Gas","Pharmaceuticals, Gas, Ships",1047.54,1234.07,79.75,-415.56,15740.26,1251.32,9.79,13.39
+Pakistan,2020,"Gas, Jewelry, Ships","Rice, Coffee, Vehicles","Palm Oil, Steel","Oil, Spices, Rice",2219.0,2254.83,81.14,299.98,3809.23,794.83,5.67,67.34
+Pakistan,2021,"Ships, Chemicals, Food Products","Tea, Electronics, Chemicals","Spices, Textiles","Chemicals, Electronics, Corn",2625.73,2537.47,88.71,341.59,5503.11,1390.69,14.6,25.66
+Pakistan,2022,"Ships, Software, Jewelry","Chemicals, Watches, Palm Oil","Vehicles, Machinery","Software, Spices, Rice",1985.86,771.5,45.9,-480.4,24875.99,778.23,2.82,79.19
+Pakistan,2023,"Ships, Pharmaceuticals, Corn","Coffee, Spices, Software","Watches, Steel","Palm Oil, Coffee, Robotics",1082.92,1093.89,58.26,79.13,21563.67,1085.79,6.08,21.95
+Pakistan,2024,"Gas, Steel, Palm Oil","Machinery, Tea, Oil","Textiles, Coffee","Robotics, Ships, Spices",1264.93,2001.02,45.69,-272.83,6762.11,1087.68,7.99,70.78
+Pakistan,2025,"Food Products, Oil, Corn","Robotics, Corn, Steel","Corn, Robotics","Tea, Watches, Coffee",2040.39,2385.81,61.68,-59.67,22600.8,60.64,6.31,96.93
+Bangladesh,2015,"Chemicals, Spices, Vehicles","Gas, Palm Oil, Machinery","Software, Tea","Corn, Machinery, Software",1985.17,900.77,53.16,380.16,20581.77,613.61,5.69,7.56
+Bangladesh,2016,"Spices, Textiles, Food Products","Food Products, Textiles, Steel","Jewelry, Corn","Vehicles, Food Products, Machinery",304.23,2604.28,73.74,-476.59,15434.19,684.63,3.58,26.69
+Bangladesh,2017,"Oil, Tea, Textiles","Tea, Food Products, Pharmaceuticals","Gas, Food Products","Textiles, Chemicals, Robotics",2262.5,1398.69,57.25,469.18,8819.88,1420.64,10.09,73.42
+Bangladesh,2018,"Palm Oil, Gas, Spices","Robotics, Ships, Coffee","Coffee, Oil","Palm Oil, Watches, Chemicals",197.62,396.57,50.38,-2.63,6603.24,719.4,13.76,62.72
+Bangladesh,2019,"Rice, Software, Corn","Oil, Robotics, Tea","Rice, Oil","Oil, Jewelry, Chemicals",2857.89,1869.88,96.08,-194.01,15996.45,986.36,11.0,60.9
+Bangladesh,2020,"Electronics, Corn, Palm Oil","Textiles, Software, Vehicles","Food Products, Rice","Food Products, Rice, Machinery",831.52,2207.79,90.64,-521.23,6464.14,8.84,3.58,41.87
+Bangladesh,2021,"Machinery, Pharmaceuticals, Watches","Watches, Food Products, Gas","Chemicals, Corn","Palm Oil, Software, Oil",801.11,1686.96,99.53,126.96,7526.48,287.51,8.17,90.19
+Bangladesh,2022,"Coffee, Food Products, Palm Oil","Food Products, Oil, Textiles","Food Products, Watches","Chemicals, Robotics, Software",879.75,2114.65,79.18,-102.95,19150.02,1192.46,13.44,29.96
+Bangladesh,2023,"Vehicles, Software, Ships","Machinery, Watches, Electronics","Electronics, Tea","Palm Oil, Textiles, Rice",2971.32,321.67,49.26,-579.67,15323.54,298.22,8.92,58.38
+Bangladesh,2024,"Palm Oil, Machinery, Spices","Ships, Jewelry, Rice","Food Products, Corn","Electronics, Textiles, Vehicles",92.67,1908.37,95.2,-484.39,5105.84,281.31,14.39,72.6
+Bangladesh,2025,"Chemicals, Robotics, Software","Pharmaceuticals, Electronics, Watches","Gas, Pharmaceuticals","Oil, Gas, Machinery",2857.23,1706.29,82.36,451.21,8656.01,1246.02,5.82,66.28
+Nigeria,2015,"Ships, Gas, Palm Oil","Textiles, Tea, Steel","Electronics, Gas","Textiles, Tea, Jewelry",2773.3,1625.76,67.64,-136.46,6491.87,1091.72,13.33,27.62
+Nigeria,2016,"Corn, Software, Coffee","Electronics, Software, Ships","Textiles, Ships","Rice, Watches, Textiles",1289.15,1686.78,84.16,436.03,3196.3,572.38,1.25,53.77
+Nigeria,2017,"Software, Palm Oil, Textiles","Gas, Chemicals, Software","Coffee, Robotics","Machinery, Tea, Vehicles",1961.2,719.33,47.93,-201.96,20581.07,400.31,1.07,25.1
+Nigeria,2018,"Software, Spices, Tea","Rice, Jewelry, Oil","Gas, Jewelry","Spices, Coffee, Steel",2421.68,1728.25,51.88,582.3,13397.04,726.22,6.36,25.94
+Nigeria,2019,"Ships, Vehicles, Robotics","Gas, Machinery, Robotics","Tea, Rice","Coffee, Corn, Oil",2316.88,1307.64,51.59,-90.24,9986.43,1230.25,3.62,75.11
+Nigeria,2020,"Corn, Ships, Oil","Pharmaceuticals, Spices, Corn","Chemicals, Watches","Corn, Robotics, Vehicles",2173.74,2859.36,90.32,508.13,21892.51,394.2,13.85,59.67
+Nigeria,2021,"Robotics, Electronics, Spices","Textiles, Machinery, Palm Oil","Spices, Oil","Ships, Electronics, Spices",1448.01,2231.33,71.95,271.26,23617.7,368.6,10.17,93.3
+Nigeria,2022,"Oil, Chemicals, Spices","Chemicals, Machinery, Coffee","Textiles, Chemicals","Chemicals, Robotics, Jewelry",1929.79,291.52,48.74,191.33,19209.35,1417.99,7.67,17.5
+Nigeria,2023,"Pharmaceuticals, Electronics, Rice","Textiles, Chemicals, Steel","Corn, Gas","Food Products, Machinery, Pharmaceuticals",1565.7,2481.38,46.59,92.86,260.19,309.69,9.46,12.43
+Nigeria,2024,"Machinery, Ships, Textiles","Robotics, Textiles, Watches","Steel, Gas","Coffee, Tea, Spices",2410.69,664.75,64.05,539.77,10137.88,1472.29,5.24,55.22
+Nigeria,2025,"Electronics, Steel, Corn","Robotics, Pharmaceuticals, Machinery","Spices, Watches","Spices, Machinery, Gas",2525.67,1992.05,99.13,525.49,17596.43,1095.47,0.67,41.58
+Chile,2015,"Food Products, Ships, Spices","Oil, Tea, Spices","Software, Corn","Pharmaceuticals, Rice, Ships",332.02,2748.88,64.79,32.59,8795.75,1016.09,14.77,1.22
+Chile,2016,"Robotics, Palm Oil, Machinery","Pharmaceuticals, Software, Steel","Oil, Chemicals","Gas, Chemicals, Corn",2329.48,348.6,61.56,394.85,24415.9,870.49,3.66,29.46
+Chile,2017,"Palm Oil, Gas, Rice","Steel, Palm Oil, Chemicals","Vehicles, Coffee","Ships, Corn, Watches",2416.49,705.62,89.75,308.29,13671.51,1183.52,1.39,24.9
+Chile,2018,"Jewelry, Vehicles, Ships","Food Products, Spices, Rice","Oil, Pharmaceuticals","Electronics, Pharmaceuticals, Software",258.4,1815.93,89.59,507.93,23963.89,1061.75,8.15,33.96
+Chile,2019,"Spices, Tea, Steel","Gas, Spices, Vehicles","Palm Oil, Oil","Oil, Pharmaceuticals, Jewelry",2962.95,2032.87,96.84,170.11,5536.83,1452.68,5.81,54.62
+Chile,2020,"Oil, Jewelry, Palm Oil","Robotics, Oil, Watches","Tea, Steel","Electronics, Software, Spices",720.51,2359.11,46.79,379.8,12833.39,1448.12,9.19,52.91
+Chile,2021,"Watches, Software, Corn","Electronics, Spices, Vehicles","Spices, Electronics","Machinery, Gas, Food Products",469.2,281.79,92.72,-500.82,24664.99,1220.79,9.79,63.13
+Chile,2022,"Watches, Corn, Rice","Chemicals, Ships, Textiles","Textiles, Vehicles","Electronics, Gas, Palm Oil",940.55,2671.54,80.58,64.41,17415.76,810.47,4.17,16.95
+Chile,2023,"Palm Oil, Robotics, Steel","Software, Jewelry, Food Products","Chemicals, Vehicles","Tea, Jewelry, Robotics",1487.79,870.64,75.95,331.54,9195.86,856.21,5.76,6.53
+Chile,2024,"Coffee, Oil, Watches","Electronics, Steel, Oil","Spices, Chemicals","Palm Oil, Spices, Corn",56.14,1565.17,97.44,12.33,12730.33,446.0,0.18,78.47
+Chile,2025,"Watches, Oil, Corn","Ships, Machinery, Robotics","Jewelry, Oil","Textiles, Ships, Robotics",172.8,948.23,97.08,74.49,5364.33,1110.36,3.65,74.64
