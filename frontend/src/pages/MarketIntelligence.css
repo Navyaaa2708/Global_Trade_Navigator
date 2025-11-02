@@ -105,3 +105,20 @@
     flex-direction: column;
   }
 }
+.match-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.match-table th,
+.match-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.match-table th {
+  background-color: #f3e8ff;
+  color: #6b21a8;
+}

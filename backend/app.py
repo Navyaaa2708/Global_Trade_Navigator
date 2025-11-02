@@ -212,6 +212,41 @@ def product_recommender_route():
         ]
         return jsonify({"country": country, "products": fallback_products})
 
+@app.route("/match-making", methods=["POST"])
+def match_making():
+    data = request.json
+    product = data.get("product", "").strip()
+    if not product:
+        return jsonify({"error": "Product required"}), 400
+
+    model = genai.GenerativeModel(model_name="gemini-2.5-flash")
+    prompt = f"""
+    For the product "{product}", identify 5 best country pairs for trade matchmaking.
+    Each entry should have:
+    - exporting_country
+    - importing_country
+    - reason
+    Return valid JSON list:
+    [
+      {{"exporting_country": "...", "importing_country": "...", "reason": "..."}},
+      ...
+    ]
+    """
+
+    try:
+        response = model.generate_content(prompt)
+        pairs = json.loads(response.text)
+    except Exception:
+        pairs = [
+            {"exporting_country": "India", "importing_country": "Germany", "reason": "Strong machinery import demand."},
+            {"exporting_country": "Vietnam", "importing_country": "USA", "reason": "High textile export synergy."},
+            {"exporting_country": "Brazil", "importing_country": "UK", "reason": "Coffee import growth."},
+            {"exporting_country": "Indonesia", "importing_country": "Japan", "reason": "Electronics and parts trade."},
+            {"exporting_country": "Mexico", "importing_country": "Canada", "reason": "Automotive supply chain integration."}
+        ]
+
+    return jsonify({"product": product, "matches": pairs})
+
 
 
 # ----------------------------

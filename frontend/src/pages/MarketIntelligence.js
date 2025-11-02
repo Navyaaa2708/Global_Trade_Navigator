@@ -16,6 +16,7 @@ const MarketIntelligence = () => {
   const [product, setProduct] = useState("");
   const [loading, setLoading] = useState(false);
   const [marketData, setMarketData] = useState(null);
+  const [matchData, setMatchData] = useState(null);
   const [error, setError] = useState("");
 
   const fetchMarketData = async () => {
@@ -26,17 +27,28 @@ const MarketIntelligence = () => {
 
     setLoading(true);
     setError("");
+
     try {
-      const res = await fetch("http://localhost:5000/market-intelligence", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ product }),
-      });
+      const [marketRes, matchRes] = await Promise.all([
+        fetch("http://localhost:5000/market-intelligence", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ product }),
+        }),
+        fetch("http://localhost:5000/match-making", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ product }),
+        }),
+      ]);
 
-      if (!res.ok) throw new Error("Failed to fetch data.");
+      if (!marketRes.ok || !matchRes.ok) throw new Error("Failed to fetch data.");
 
-      const data = await res.json();
-      setMarketData(data);
+      const marketDataJson = await marketRes.json();
+      const matchDataJson = await matchRes.json();
+
+      setMarketData(marketDataJson);
+      setMatchData(matchDataJson.matches);
     } catch (err) {
       console.error(err);
       setError("Failed to fetch market intelligence data.");
@@ -49,7 +61,7 @@ const MarketIntelligence = () => {
     <div className="hs-container mi-container">
       <h2>Market Intelligence</h2>
 
-      {/* Input and Button */}
+      {/* Input */}
       <div className="mi-filters">
         <label>
           Enter Product:{" "}
@@ -71,7 +83,7 @@ const MarketIntelligence = () => {
         <p>🔍 Analyzing product trends...</p>
       ) : marketData ? (
         <>
-          {/* Forecast Chart */}
+          {/* Demand Forecast */}
           <div className="hs-card">
             <h3 className="text-blue-600">
               {marketData.product} Demand Forecast
@@ -87,7 +99,7 @@ const MarketIntelligence = () => {
             </ResponsiveContainer>
           </div>
 
-          {/* Top Countries Bar Chart */}
+          {/* Top Countries */}
           <div className="hs-card">
             <h3 className="text-green-600">Top Countries by Demand</h3>
             <ResponsiveContainer width="100%" height={300}>
@@ -101,7 +113,7 @@ const MarketIntelligence = () => {
             </ResponsiveContainer>
           </div>
 
-          {/* Pros & Cons */}
+          {/* Opportunities & Risks */}
           <div className="hs-card">
             <h3 className="text-red-600">Opportunities & Risks</h3>
             {marketData.results.map((countryData, idx) => (
@@ -128,6 +140,31 @@ const MarketIntelligence = () => {
               </div>
             ))}
           </div>
+
+          {/* 🔗 Match Making Section */}
+          {matchData && (
+            <div className="hs-card">
+              <h3 className="text-purple-600">Global Trade Match Making</h3>
+              <table className="match-table">
+                <thead>
+                  <tr>
+                    <th>Exporting Country</th>
+                    <th>Importing Country</th>
+                    <th>Reason</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {matchData.map((pair, i) => (
+                    <tr key={i}>
+                      <td>{pair.exporting_country}</td>
+                      <td>{pair.importing_country}</td>
+                      <td>{pair.reason}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </>
       ) : (
         <p style={{ color: "#666" }}>

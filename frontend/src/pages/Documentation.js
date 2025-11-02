@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Documentation.css";
-import { jsPDF } from "jspdf"; // ✅ import jsPDF
+import { jsPDF } from "jspdf";
 
 const mockDocumentation = {
   country: "India",
@@ -21,6 +21,10 @@ const mockDocumentation = {
       required_documents: [
         "Import License",
         "Business Registration Certificate",
+      ],
+      validation: [
+        "Ensure license is valid and matches importer details",
+        "Check document expiration and authenticity on DGFT portal",
       ],
       timeline: "3–7 business days",
       fees: "Varies by product category",
@@ -43,6 +47,10 @@ const mockDocumentation = {
         "Packing List",
         "Bill of Lading",
         "Certificate of Origin",
+      ],
+      validation: [
+        "Verify invoice values and HS codes match declared goods",
+        "Ensure certificate of origin is properly signed and stamped",
       ],
       timeline: "1–3 business days",
       fees: "Based on product HS code and declared value",
@@ -72,42 +80,45 @@ export default function Documentation() {
 
   useEffect(() => {
     setLoading(true);
-    // Simulate fetching from backend
     setTimeout(() => {
       setData(mockDocumentation);
       setLoading(false);
     }, 1000);
   }, [selectedCountry]);
 
-  // ✅ Download PDF function
+  // ✅ Download PDF including validation
   const downloadChecklist = () => {
     const docPDF = new jsPDF();
     docPDF.setFontSize(16);
     docPDF.text(`Documentation Checklist - ${data.country}`, 20, 20);
-
     let y = 30;
 
-    // Add steps and documents
     data.steps.forEach((step) => {
       docPDF.setFontSize(12);
       docPDF.text(`Step ${step.step_no}: ${step.title}`, 20, y);
       y += 8;
 
+      docPDF.text("Required Documents:", 25, y);
+      y += 6;
       step.required_documents.forEach((docItem) => {
-        docPDF.text(`- ${docItem}`, 25, y);
+        docPDF.text(`- ${docItem}`, 30, y);
         y += 6;
       });
 
-      y += 6; // spacing between steps
+      docPDF.text("Validation:", 25, y);
+      y += 6;
+      step.validation.forEach((v) => {
+        docPDF.text(`• ${v}`, 30, y);
+        y += 6;
+      });
 
-      // Add new page if content exceeds page height
+      y += 10;
       if (y > 270) {
         docPDF.addPage();
         y = 20;
       }
     });
 
-    // Save PDF
     docPDF.save(`Checklist_${data.country}.pdf`);
   };
 
@@ -151,37 +162,29 @@ export default function Documentation() {
 
                   {openStep === step.step_no && (
                     <div className="doc-step-content">
-                      <p>
-                        <strong>Objective:</strong> {step.objective}
-                      </p>
-                      <p>
-                        <strong>Who:</strong> {step.who}
-                      </p>
-                      <p>
-                        <strong>Actions:</strong>
-                      </p>
+                      <p><strong>Objective:</strong> {step.objective}</p>
+                      <p><strong>Who:</strong> {step.who}</p>
+                      <p><strong>Actions:</strong></p>
                       <ul>
                         {step.actions.map((a, i) => (
                           <li key={i}>{a}</li>
                         ))}
                       </ul>
-                      <p>
-                        <strong>Required Documents:</strong>
-                      </p>
+                      <p><strong>Required Documents:</strong></p>
                       <ul>
                         {step.required_documents.map((d, i) => (
                           <li key={i}>{d}</li>
                         ))}
                       </ul>
-                      <p>
-                        <strong>Timeline:</strong> {step.timeline}
-                      </p>
-                      <p>
-                        <strong>Fees:</strong> {step.fees}
-                      </p>
-                      <p>
-                        <strong>Official Links:</strong>
-                      </p>
+                      <p><strong>Document Validation:</strong></p>
+                      <ul>
+                        {step.validation.map((v, i) => (
+                          <li key={i}>{v}</li>
+                        ))}
+                      </ul>
+                      <p><strong>Timeline:</strong> {step.timeline}</p>
+                      <p><strong>Fees:</strong> {step.fees}</p>
+                      <p><strong>Official Links:</strong></p>
                       <ul>
                         {step.official_links.map((l, i) => (
                           <li key={i}>
@@ -191,9 +194,7 @@ export default function Documentation() {
                           </li>
                         ))}
                       </ul>
-                      <p>
-                        <strong>Notes:</strong> {step.notes}
-                      </p>
+                      <p><strong>Notes:</strong> {step.notes}</p>
                     </div>
                   )}
                 </div>
@@ -215,7 +216,6 @@ export default function Documentation() {
               </ul>
             </div>
 
-            {/* ✅ Updated Download Button */}
             <div className="doc-btn-container">
               <button className="doc-btn" onClick={downloadChecklist}>
                 Download Checklist
