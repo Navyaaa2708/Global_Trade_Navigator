@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 // Components
 import Sidebar from "./components/Sidebar";
@@ -17,11 +17,14 @@ import Documentation from "./pages/Documentation";
 function App() {
   return (
     <Router>
-      <div className="flex min-h-screen">
+      <div className="flex min-h-screen bg-gray-100">
+        {/* Sidebar */}
         <Sidebar />
 
-        <div className="flex-1 p-6 bg-gray-100">
+        {/* Main Content */}
+        <div className="flex-1 p-6">
           <Routes>
+            {/* Core Pages */}
             <Route path="/" element={<Dashboard />} />
             <Route path="/news" element={<News />} />
             <Route path="/hs-code-finder" element={<HSCodeFinder />} />
@@ -30,6 +33,9 @@ function App() {
             <Route path="/market-intelligence" element={<MarketIntelligence />} />
             <Route path="/logistics-hub" element={<LogisticsHub />} />
             <Route path="/documentation" element={<Documentation />} />
+
+            {/* Fallback */}
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>
       </div>
