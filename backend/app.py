@@ -9,10 +9,12 @@ from googlesearch import search
 # ----------------------------
 # Load environment variables
 # ----------------------------
-load_dotenv()
+load_dotenv()  # works locally, ignored on Render
+
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
-    raise ValueError("⚠️ No GEMINI_API_KEY found in .env file")
+    print("⚠️ GEMINI_API_KEY not set")
+
 
 genai.configure(api_key=GEMINI_API_KEY)
 
