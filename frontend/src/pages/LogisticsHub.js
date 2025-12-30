@@ -58,55 +58,58 @@ const LogisticsHub = () => {
     }))
   );
 
-  useEffect(() => {
-    const frames = [];
+ useEffect(() => {
+  const frames = [];
 
-    trucks.forEach((truck, tIdx) => {
-      const animateTruck = () => {
-        const route = truckRoutes[tIdx].route;
-        const segmentDuration = truckRoutes[tIdx].segmentDuration;
-        let startIndex = truck.currentIndex;
-        let nextIndex = (startIndex + 1) % route.length;
-        let progress = truck.progress;
+  trucks.forEach((truck, tIdx) => {
+    const animateTruck = () => {
+      const route = truckRoutes[tIdx].route;
+      const segmentDuration = truckRoutes[tIdx].segmentDuration;
+      let startIndex = truck.currentIndex;
+      let nextIndex = (startIndex + 1) % route.length;
+      let progress = truck.progress;
 
-        const step = () => {
-          progress += 0.005; // Adjust speed
-          if (progress >= 1) {
-            startIndex = nextIndex;
-            nextIndex = (startIndex + 1) % route.length;
-            progress = 0;
-          }
+      const step = () => {
+        progress += 0.005;
+        if (progress >= 1) {
+          startIndex = nextIndex;
+          nextIndex = (startIndex + 1) % route.length;
+          progress = 0;
+        }
 
-          const start = route[startIndex];
-          const end = route[nextIndex];
-          const lat = start.lat + (end.lat - start.lat) * progress;
-          const lng = start.lng + (end.lng - start.lng) * progress;
-          const remainingTime = segmentDuration * (1 - progress);
+        const start = route[startIndex];
+        const end = route[nextIndex];
+        const lat = start.lat + (end.lat - start.lat) * progress;
+        const lng = start.lng + (end.lng - start.lng) * progress;
+        const remainingTime = segmentDuration * (1 - progress);
 
-          setTrucks((prev) =>
-            prev.map((t, idx) =>
-              idx === tIdx
-                ? {
-                    ...t,
-                    currentIndex: startIndex,
-                    position: { lat, lng, label: end.label },
-                    progress,
-                    eta: Math.round(remainingTime),
-                  }
-                : t
-            )
-          );
+        setTrucks((prev) =>
+          prev.map((t, idx) =>
+            idx === tIdx
+              ? {
+                  ...t,
+                  currentIndex: startIndex,
+                  position: { lat, lng, label: end.label },
+                  progress,
+                  eta: Math.round(remainingTime),
+                }
+              : t
+          )
+        );
 
-          frames[tIdx] = requestAnimationFrame(step);
-        };
-        step();
+        frames[tIdx] = requestAnimationFrame(step);
       };
+      step();
+    };
 
-      animateTruck();
-    });
+    animateTruck();
+  });
 
-    return () => frames.forEach((frame) => cancelAnimationFrame(frame));
-  }, []);
+  return () => frames.forEach((frame) => cancelAnimationFrame(frame));
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, []);
+
 
   return (
     <div className="lh-container">
